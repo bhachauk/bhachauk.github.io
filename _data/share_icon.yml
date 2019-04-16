@@ -1,0 +1,16 @@
+- name: facebook
+  link: https://www.facebook.com/sharer/sharer.php?u=
+  img: facebook-square-brands.svg
+- name: twitter
+  link: https://twitter.com/intent/tweet?text=
+  img: twit.svg
+- name: google+
+  link: https://plus.google.com/share?url=
+  img: gplus.svg
+- name: pinterest
+  link: http://pinterest.com/pin/create/button/?url=
+  img: pint.svg
+- name: linkedin
+  img: linkedin.svg
+- name: email
+  img: mail.svg

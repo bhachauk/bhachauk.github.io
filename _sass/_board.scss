@@ -1,0 +1,41 @@
+.cellGh li {
+  background: #fef;
+}
+.cellMa li {
+    background: #fee;
+}
+.cell li {
+    width: 15%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    margin: 3%;
+    vertical-align: top;
+    img{
+        display: inline-block;
+        width: 100%;
+    }
+    @include mobile {
+       width: 70%;
+    }
+}
+.cell{
+    p{
+        padding: 0px 0px 10px 10px;
+        font-size: 9px;
+    }
+h3{
+    padding: 0px 0px 10px 10px;
+    font-size: 12px;
+   }
+}
+
+.cell a {
+    li {
+        &:hover, &:active {
+            box-shadow: 1px 3px 3px 3px #B9B9B9;
+        }
+    }
+}

@@ -1,0 +1,621 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+//
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+    font: 15px/1.8 'Merriweather Sans', sans-serif;
+    color: $darkGray;
+}
+
+code {
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+span.footer-left{
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+
+span.footer-center{
+    padding-top: 20px;
+    padding-right: 50%;
+    float: right;
+}
+
+.right{
+    float: right;
+}
+
+p.quickNote
+{
+     background-color: #ffefef;
+     border-left: solid 2px #d2372a;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 12px;
+     color: #d2372a;
+     white-space: pre-wrap;
+}
+
+p.noteHeader
+{
+     background-color: #555;
+     border-left: solid 8px #900;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 12px;
+     color: #fff;
+}
+
+p.noteText
+{
+     background-color: #555;
+     padding: 12px;
+     color: white;
+     white-space: pre-wrap;
+}
+
+p.noteQuote
+{
+     background-color: #555;
+     padding: 12px;
+     color: white;
+     white-space: pre-wrap;
+     text-align: center;
+}
+
+mark {
+    background-color: #ffefef;
+    font-size: 12px;
+    font-family: monospace;
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 3px 6px;
+    color: #d2372a;
+}
+
+.container a, .qandacontainer a {
+      border-radius: 3px;
+    	padding: 1px 1px 1px;
+    	color: #a00;
+    	padding-left: 5px;
+    	padding-right: 5px;
+    	font-weight: bold;
+      cursor: pointer;
+      &:hover{
+      text-decoration: underline;
+      color: #a00;
+      }
+  }
+
+img.git{
+    background-image: url('/images/git.svg');
+    width  : 42;
+    height : 42;
+}
+
+#titleBar {
+  overflow: hidden;
+  margin-top: 15px;
+  height: 200px;
+  width : 100%;
+  text-align: center;
+  background: #414141;
+  display: table;
+  span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    font-size: 18px;
+    color: white;
+  }
+  p{
+      color: white;
+  }
+}
+
+#rcorners1 {
+      background: #E9CC81;
+      padding: 20px;
+      width: 100%;
+      height: 30%;
+}
+
+.imgbrd {
+        border: 1px solid #902f3f;
+        width : auto;
+        padding: 20px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        clear: both;
+        margin-bottom: 40px;
+}
+
+.contentBorder {
+        border: 1px solid #902f3f;
+        width : 50%;
+        padding: 20px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        clear: both;
+        text-align: left;
+}
+
+kbd.imgtitle{
+	background: #902f3f;
+    font-family: $merriWeather;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  	padding: 4px;
+  	color: white;
+    float: left;
+    display: block;
+}
+p.alcenter{
+    align: center;
+}
+.last{
+    clear: right;
+}
+
+.txtContainer{
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.commentContainer{
+  margin: auto;
+  margin-top: 0px;
+  background: white;
+  width: 99%;
+  padding: 35px;
+}
+.container {
+  margin: auto;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0px 1px 10px 1px;
+  background: white;
+  max-width: 1200px;
+  width: 80%;
+  a.post_link{
+      &:hover, &:active {
+        color: $coral;
+      }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $merriWeather;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 12px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 30px;
+}
+
+.inv{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.wrapper{
+    max-width: calc(800px - (30px));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    img{
+        vertical-align: middle;
+        display: inline-block;
+        -webkit-filter: invert(1);
+        filter: invert(1) brightness(70%);
+        &:hover{
+            filter: brightness(100%) invert(1);
+        }
+    }
+    a{
+        filter: brightness(70%);
+        &:hover{
+            filter: brightness(100%);
+        }
+    }
+}
+.wrapper-navBorder{
+    height: 60px;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    background: #333;
+    border-top: 5px solid #333;
+    line-height: 54px;
+    position: relative;
+}
+
+.site-info {
+  float: left;
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $merriWeather;
+  font-weight: 225;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 12px;
+
+  @include mobile {
+    margin: 2px 0;
+  }
+}
+
+
+nav.masterTab {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+    display: inline-block;
+  a {
+    margin-left: 15px;
+    color: white;
+    align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 2em;
+  border-bottom: none;
+}
+
+blockquote {
+    margin: 1.8em .8em;
+    padding: 0.1em 1em;
+    color: #131;
+    padding-left: 20px;
+    font-size: 15px;
+    min-height: 20px;
+    background-color: #ebeef2;
+    border-left: 5px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    display:inline-block;
+}
+.post {
+
+  .comments {
+    margin-top: 7px;
+  }
+
+  .read-more {
+    text-transform: lowercase;
+    font-size: 11px;
+  }
+}
+
+.wrapper-footer {
+    background: white;  /* fallback for old browsers */
+    border-radius: 7px;
+    border-color: #111;
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    i{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        &:hover{
+            filter: invert(100%);
+            -webkit-filter: invert(100%);
+        }
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+i{
+  border-radius: 50%;
+  padding: 0.3em 0.3em;
+  vertical-align: middle;
+  position: relative;
+  align: center;
+  display: block;
+}
+footer {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.txt-center {
+    text-align: center;
+    width: auto;
+}
+
+.txt-pad{
+    padding-left: 37px;
+    font-weight: bold;
+}
+
+// For hide
+.dataframe{
+    border: "1";
+    td {
+        border: 1px solid black;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+table.dataframe {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    align: center;
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 6px;
+}
+
+th{
+     font-weight:bold;
+     color: #902f3f;
+}
+
+.goToBtn{
+    background: #cb2d3e; /* fallback for old browsers */
+    border-radius: 1px;
+    border: none;
+    padding: 9px;
+    color: white;
+    &:hover, &:active {
+        background: $coral;
+        cursor: pointer;
+    }
+}
+
+#myBottomBtn, #myBtn {
+        position: fixed;
+        font-size: 12px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 3px;
+        &:hover {
+           background-color: #555;
+         }
+}
+
+#myBottomBtn {
+  display: none;
+  bottom: 60px;
+  right: 22px;
+  z-index: 75;
+}
+
+#myBtn {
+  display: none;
+  bottom: 100px;
+  right: 22px;
+  z-index: 75;
+}
+
+#disqus_thread {
+    overflow:hidden !important;
+    font-size: 20%;
+}
+
+//
+
+button:focus {outline:0;}
+.commentButton{
+    background-color: #414141; /* Green */
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    a{
+        font-size: 12px;
+        color: white;
+        font-family: $merriWeather;
+    }
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+@import "post-icons";
+@import "share-bar";
+@import "board";
+@import "output";
+@import "tabs";
+@import "star";
+@import "article";
+@import "qanda";
+
+.oneliner{
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gitHubTitle{
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gitHubBg{
+      background: #fff;
+}
+
+.myAppsBg{
+      background: #666;
+}
+
+.myAppsTitle{
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(to right, #fff, #ff0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eee, #ff0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slogan{
+    margin: 5%;
+    h6{
+        font-family: $merriWeather;
+        color: #912905;
+    }
+}
+
+.timeline{
+    display:block;
+}
+
+.profile {
+    display:none;
+}
+
+.currentBtn{
+    background: #333;
+    color: white;
+}
+.cmnBtn{
+    width: 49.5%;
+    padding: 10px;
+    align: center;
+    border: solid 2px #333;
+    cursor: pointer;
+    display:inline-block;
+}
+.abtBtnContainer{
+ padding: auto;
+ border: solid 1px black;
+ background: #333;
+ display: inline-table;
+ width: 100%;
+ text-align:center;
+ }

@@ -1,0 +1,111 @@
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 9px;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 4px 9px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+.indexContainer{
+  margin: auto;
+  border-color: #739288;
+  border-style: solid;
+  border-width: 1px 1px 10px 1px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: white;
+  max-width: 900px;
+  align: center;
+  width: 60%;
+  h3{
+    background: #739288;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-right: 22px
+  }
+
+  a{
+      &:hover, &:active {
+        color: $coral;
+      }
+  }
+}
+
+/* Style the tab content */
+#tabdefault{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    max-width: 1000px;
+    align: center;
+    width: 55%;
+
+
+    p, li {
+        font-family: $lobs;
+    }
+
+    ol, p, h3{
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    li{
+        padding-left: 10px;
+    }
+
+    h3{
+        font-family: $charm;
+        font-size: 32px;
+        padding: 15px;
+        background-image: linear-gradient(to right, red, orange 50%, brown);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-align: center;
+    }
+}

@@ -1,0 +1,19 @@
+- name: Electronic Primary Fuel Injection System
+  link: /epfis
+  desc: Injecting the primary fuel (like Alcohols) in Dual fuel engine with bio diesel (pivot fuel).
+  img: /assets/board_images/epfis.jpeg
+
+- name: Patch Antenna Design Using - R Shiny
+  link: /patchdesign_shiny
+  desc: A Simple Web Tool powered by R shiny server for designing a simple patch antenna.
+  img: /assets/board_images/antenna.jpeg
+
+- name: Learn Groovy - A Simple HandBook
+  link: /Learn_Groovy
+  desc: Quick handbook with Code Snippets and notes for newbies to initiating the Groovy learning.
+  img: /assets/board_images/groovy.jpg
+
+- name: Simple Network Viewer Using - R Shiny
+  link: /networkviewer_shiny
+  desc: Visualizing the Network Graph in igraph, D3 and visnetwork using R shiny server.
+  img: /assets/board_images/network.jpeg

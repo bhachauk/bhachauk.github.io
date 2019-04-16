@@ -1,0 +1,53 @@
+.qandacontainer {
+  position: relative;
+  bottom: 150px;
+  margin: 8% auto auto auto;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0px 1px 10px 1px;
+  background: white;
+  max-width: 1200px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+#qandatitleBar {
+  overflow: hidden;
+  margin-top: 15px;
+  height: 200px;
+  width : 100%;
+  text-align: center;
+  background: #690101;
+  display: table;
+  span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    font-size: 18px;
+    color: white;
+  }
+  p{
+      color: white;
+  }
+}
+
+.qandaq{
+    height: 80px;
+    width : auto;
+    background-color : #333;
+    color: white;
+    margin-left: -20px;
+    padding: 25px 20px 10px 10px;
+}
+
+.refbox{
+    background: #d0ece7;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    display: inline-block;
+    white-space: pre-wrap;
+}

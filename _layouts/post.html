@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<br>
+<div class="container">
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa fa-arrow-up inv" aria-hidden="true"></i>
+</button>
+<button onclick="bottomFunction()" id="myBottomBtn" title="Go to bottom">
+  <i class="fa fa-arrow-down inv" aria-hidden="true"></i>
+</button>
+<article class="post">
+  <div id="titleBar">
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <span>
+        <h1 align="center">{{ page.title }}</h1>
+      </span>
+  </div>
+  <span>
+    <p align="center"> {% include post-icons.html %}</p>
+  </span>
+  <hr width="25%" size="5">
+  <br>
+  <div class="txtContainer">
+    <div class="entry">
+      {{ content }}
+      {% include advertisement.html %}
+    </div>
+  </div>
+</article>
+
+  {% include share-bar.html %}
+
+<div class="commentContainer">
+    {% include comment-note.html %}
+    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+    <div class="txt-center">
+        <button class="commentButton" onclick="hide()"><a href="{{post.url}}#disqus_thread">comments</a></button>
+    </div>
+    <div id="hideContent">
+      {% include disqus.html %}
+    </div>
+    <h5>Related Posts</h5>
+    <hr>
+    <div class="relatedPostBoard">
+  {% if page.previous %}
+    <a class="relatedPostCell" href="{{ page.previous.url }}">
+        <span>
+            <p>{{ page.previous.title }}</p>
+        </span>
+    </a>
+  {% endif %}
+  {% if page.next %}
+    <a class="relatedPostCell rightpost" href="{{ page.next.url }}">
+        <span>
+            <p>{{ page.next.title }}</p>
+        </span>
+    </a>
+  {% endif %}
+    </div>
+    </div>
+</div>

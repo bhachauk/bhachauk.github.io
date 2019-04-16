@@ -1,0 +1,16 @@
+<header class="wrapper-navBorder">
+    <div class="wrapper">
+    <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/images/blogo.jpg" width="30px"></a>
+    <nav class="masterTab">
+          {% for nav in site.data.navigation %}
+            <a href="{{ site.baseurl }}{{nav.link}}">{{ nav.name }}</a>
+          {% endfor %}
+    </nav>
+    </div>
+</header>
+<div id="main" role="main">
+    {{ content }}
+</div>
+
+{% include analytics.html %}

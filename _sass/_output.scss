@@ -1,0 +1,21 @@
+.output {
+      background-color: #ccc;
+}
+pre{
+      background-color: #49483E;
+      color: white;
+}
+.output, pre {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: "Sans Mono", "Consolas", "Courier", monospace;
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    display: inline-block;
+    white-space: pre-wrap;
+    overflow: auto;
+    @include mobile {
+    overflow:auto;
+    }
+}

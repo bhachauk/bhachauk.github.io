@@ -1,0 +1,42 @@
+{% if page.date %}
+<p align="center" xmlns="http://www.w3.org/1999/html" style="font-family: 'Charmonman', cursive; font-weight: bold;">
+    <i class="far fa-calendar-alt fa-2x"></i><br>
+{{ page.date | date_to_long_string }}</p>
+{% endif %}
+<div class="post-icon-container">
+{% if page.dribbble %}<a href="https://dribbble.com/{{ page.dribbble }}"><i class="post-icon dribbble"></i></a>{% endif %}
+{% if page.email %}<a href="mailto:{{ page.email }}"><i class="post-icon email"></i></a>{% endif %}
+{% if page.facebook %}<a href="https://www.facebook.com/{{ page.facebook }}"><i class="post-icon facebook"></i></a>{% endif %}
+{% if page.flickr %}<a href="https://www.flickr.com/{{ page.flickr }}"><i class="post-icon flickr"></i></a>{% endif %}
+{% if page.github %}
+    <a href="https://github.com/Bhanuchander210/{{ page.github }}">
+        <i class="fab fa-github fa-2x"></i></a>
+{% endif %}
+{% if page.instagram %}<a href="https://instagram.com/{{ page.instagram }}"><i class="post-icon instagram"></i></a>{% endif %}
+{% if page.linkedin %}<a href="https://www.linkedin.com/in/{{ page.linkedin }}"><i class="post-icon linkedin"></i></a>{% endif %}
+{% if page.pinterest %}<a href="https://www.pinterest.com/{{ page.pinterest }}"><i class="post-icon pinterest"></i></a>{% endif %}
+{% if page.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="post-icon rss"></i></a>{% endif %}
+{% if page.twitter %}<a href="https://www.twitter.com/{{ page.twitter }}"><i class="post-icon twitter"></i></a>{% endif %}
+{% if page.stackoverflow %}<a href="http://stackoverflow.com/{{ page.stackoverflow }}"><i class="post-icon stackoverflow"></i></a>{% endif %}
+{% if page.youtube %}<a href="https://youtube.com/{{ page.youtube }}"><i class="post-icon youtube"></i></a>{% endif %}
+{% if page.extralink %}
+
+<a href="{{ page.extralink }}">
+    <i class="fas fa-link fa-2x"></i>
+</a>
+{% endif %}
+{% if page.shiny %}
+    <a href="https://bhanuchander.shinyapps.io/{{ page.shiny }}">
+        <i class="fab fa-r-project fa-2x"></i>
+    </a>
+{% endif %}
+{% if page.kaggle %}
+<a href="https://kaggle.com/{{site.footer-links.kaggle}}/{{ page.kaggle }}">
+    <i class="fab fa-kaggle fa-2x"></i>
+</a>
+{% endif %}
+</div>
+{% if page.oneliner %}
+<hr width="25%" size="5">
+<h2 class="oneliner">{{page.oneliner}}</h2>
+{% endif %}
