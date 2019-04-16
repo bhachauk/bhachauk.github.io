@@ -128,8 +128,7 @@ a.relatedPostCell{
     }
   }
   &:hover{
-    border-width: 1px 1px 5px 1px;
-    border-radius: 4px;
+    box-shadow: 0px 1px 5px 1px #ccc;
     text-decoration: none;
     color: auto;
   }
