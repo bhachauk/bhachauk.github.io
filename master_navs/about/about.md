@@ -8,7 +8,7 @@ title: About me
 ![me](https://media.licdn.com/dms/image/C5103AQHDVN6GgndO6w/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=O1G7xe8Qa26t8KDzfmidJUG6xhQK03Pmhqo4BZeWd2k)
 ###### Bhanuchander Udhayakumar
 {: .txt-center}
-**RF Design | Wireless | Optical Network | Programming**
+**RF Design | Wireless | Optical Network | Data Science**
 {: .txt-center}
 
 <br>
@@ -23,8 +23,6 @@ title: About me
 <button onclick="toggle(event,'profile')" class="cmnBtn">Profile</button>
 </div>
 
-<br>
-
 |2017 July - Present  &nbsp;&nbsp;| NMSWorks Software Pvt Ltd, IITM Research Park, Chennai.|
 |---|:---|
 |Designation| &nbsp;&nbsp; Systems Engineer|
@@ -32,9 +30,7 @@ title: About me
 |Areas of work| &nbsp;&nbsp; Domain Specific Language Development<br>&nbsp;&nbsp; Data Mining, Deep Learning and Machine Learning<br> &nbsp;&nbsp; CLI Development for Automation|
 |Languages| &nbsp;&nbsp; Groovy, Java, Python, R, Java Script|
 |Tools used| &nbsp;&nbsp; Jenkins, Gradle, DSL-CLI, R Shiny Server,<br>&nbsp;&nbsp; Tensorflow, keras and other ML Tools <br>|
-{: .dataframe .profile .show style="display:none"}
-
-<br>
+{: .dataframe .profile .show style="display:none; margin: 5%;"}
 
 |2016 Dec - 2017 May| Visteon Technical and Service Center, Olympia, Chennai.|
 |---|:--|
@@ -43,7 +39,7 @@ title: About me
 |Areas of work| &nbsp;&nbsp; Protocol stack integration for toolchain <br> &nbsp;&nbsp; Automation and Unit Testing|
 |Languages| &nbsp;&nbsp; Python, C|
 |Tools used| &nbsp;&nbsp; Vector Cast, gcc-arm-linux-gnueabi &nbsp;&nbsp;|
-{: .dataframe .profile .show style="display:none"}
+{: .dataframe .profile .show style="display:none; margin: 5%;"}
 
 ###### Now
 {: .timeline .show}
