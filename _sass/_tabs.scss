@@ -49,29 +49,24 @@
 
 .indexContainer{
   margin: auto;
-  border-color: #739288;
+  border-color: #ccc;
   border-style: solid;
   border-width: 1px 1px 10px 1px;
-  margin-top: 2%;
-  margin-bottom: 2%;
   background: white;
   max-width: 900px;
   align: center;
   width: 60%;
   h3{
-    background: #739288;
-    display: inline-block;
-    text-align: center;
     font-size: 22px;
-    padding-left: 15px;
-    padding-right: 22px
   }
-
   a{
       &:hover, &:active {
         color: $coral;
       }
   }
+}
+.indexDate{
+    color: #912905;
 }
 
 /* Style the tab content */

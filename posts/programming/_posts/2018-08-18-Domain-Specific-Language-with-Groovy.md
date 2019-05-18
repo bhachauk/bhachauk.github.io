@@ -49,8 +49,8 @@ Simple Code Snippets and Handbook for Groovy
 Let us start with a task for collecting animals list in a zoo. How would be the code in <mark>Java</mark>
 for this task.
 
-<span class="left"><kbd class="lang">Normal Java Code</kbd></span>
-<span class="right"><kbd class="lang">Java</kbd></span>
+Java
+{: .longTag}
 
 ```java
 import java.util.ArrayList;
@@ -98,6 +98,9 @@ public class Animals{
 
 What if we have a **'Main ()'** method like shown below DSL code,
 
+Groovy
+{: .longTag}
+
 ```groovy
     def groupA = animals {
         addAnimal ("Richard Parker", 17)
@@ -111,6 +114,9 @@ What if we have a **'Main ()'** method like shown below DSL code,
  spec files with groovy features which is highly recommended for future changes with reduced conflicts.
  
  This can be obtained from below shown <mark>Groovy</mark> code,
+ 
+ Groovy
+ {: .longTag}
  
  ```groovy
     Animals animals(Closure cl)
@@ -187,7 +193,7 @@ These are my sample codes of my own **DSL Language** from shown above repo. Such
 - Json
 - Files
 
-- EMail Support
+###### EMail Support
 
 ```groovy
 mailserver{
@@ -206,7 +212,7 @@ mailserver{
 }
 ``` 
 
-Excel Support
+###### Excel Support
 
 ```groovy
 excelstudy{
@@ -223,7 +229,7 @@ excelstudy{
 }
 ```
 
-- Json Support
+###### Json Support
 
 ```groovy
 jsonstudy{
@@ -236,7 +242,7 @@ jsonstudy{
 }
 ```
 
-- File Support
+###### File Support
 
 ```groovy
 filestudy {

@@ -11,10 +11,13 @@ title: About me
 **RF Design | Wireless | Optical Network | Data Science**
 {: .txt-center}
 
-<br>
+<div class="wrapper-footer">
+    <footer class="svgBox">
+      {% include svg-icons.html %}
+    </footer>
+</div>
 
----
-{: style="width:50%"}
+<br>
 
 <br>
 
@@ -23,23 +26,20 @@ title: About me
 <button onclick="toggle(event,'profile')" class="cmnBtn">Profile</button>
 </div>
 
-|2017 July - Present  &nbsp;&nbsp;| NMSWorks Software Pvt Ltd, IITM Research Park, Chennai.|
-|---|:---|
-|Designation| &nbsp;&nbsp; Systems Engineer|
-|Team| &nbsp;&nbsp; Tx Solution Team|
-|Areas of work| &nbsp;&nbsp; Domain Specific Language Development<br>&nbsp;&nbsp; Data Mining, Deep Learning and Machine Learning<br> &nbsp;&nbsp; CLI Development for Automation|
-|Languages| &nbsp;&nbsp; Groovy, Java, Python, R, Java Script|
-|Tools used| &nbsp;&nbsp; Jenkins, Gradle, DSL-CLI, R Shiny Server,<br>&nbsp;&nbsp; Tensorflow, keras and other ML Tools <br>|
-{: .dataframe .profile .show style="display:none; margin: 5%;"}
 
-|2016 Dec - 2017 May| Visteon Technical and Service Center, Olympia, Chennai.|
-|---|:--|
-|Designation| &nbsp;&nbsp; Graduate Technical Intern|
-|Team| &nbsp;&nbsp; Instrument Cluster and Infotainment|
-|Areas of work| &nbsp;&nbsp; Protocol stack integration for toolchain <br> &nbsp;&nbsp; Automation and Unit Testing|
-|Languages| &nbsp;&nbsp; Python, C|
-|Tools used| &nbsp;&nbsp; Vector Cast, gcc-arm-linux-gnueabi &nbsp;&nbsp;|
-{: .dataframe .profile .show style="display:none; margin: 5%;"}
+{% for job in site.data.profile %}
+<div class="profileCard profile show " style="display:none; margin: 5%;">
+<img src="{{job.logo}}" align= "right"/>
+<h4>{{job.company}}</h4>
+<b>{{job.location}}</b>
+<br>
+<h6>{{job.designation}}</h6>
+<p>{{job.teams}}</p>
+<p style="color: #699">{{job.period}}</p>
+<p style="profileDescription">Domain : {{job.domain}}</p>
+<p style="profileDescription">Languages : {{job.languages}}</p>
+</div>
+{% endfor %}
 
 ###### Now
 {: .timeline .show}
@@ -102,16 +102,3 @@ title: About me
 - Completed SSLC at Devangar Higher Secondary School, Aruppukottai with score 94.4 %.
 - Completed Visharadh Poorvardh a Hindi literacy Examination organized by <mark>Dakshina Bharat Hindi Prachar Sabha</mark>.
 {: .timeline .show}
-
-<br>
-
----
-{: style="width:50%"}
-
-<div class="wrapper-footer">
-    <footer class="footer">
-      {% include svg-icons.html %}
-    </footer>
-</div>
-<br>
-<br>
