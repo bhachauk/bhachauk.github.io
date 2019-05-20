@@ -203,6 +203,30 @@ So you need to be aware of what random package used by your model.
     - [Reproducible Results by machine learning mastery](https://machinelearningmastery.com/reproducible-results-neural-networks-keras/)
 {: .refbox}
 
+##### How to determine the number of hidden layers required ?
+
+This question was the often arouse and also more complicated. I hope the notes and references below will help you to understand why i said like that.
+
+- The number of hidden layers equals one.
+- The number of neurons in that layer is the mean of the neurons in the input and output layers.
+- It is observed that most of the problems can be solved using the above said 2 rules.
+- If you build a very deep and wide network, that means you may end up memorizing or computing the results you want on output layer at very near hidden layer from the first.
+- Obviously it will take too much (unwanted) computation time and resource.
+- Literally All you want is a generalised data which is more important to be considered.
+- Increasing the Depth and width of a network, may cause over-fitting and also practically observed.   
+
+**Reference :**
+    - [Stack overflow discussion](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
+    - [5.2 Capacity Over-fitting and Under-fitting](http://www.deeplearningbook.org/contents/ml.html)
+    - [Stack Exchange Question and Answer 1](https://stats.stackexchange.com/questions/222883/why-are-neural-networks-becoming-deeper-but-not-wider)
+    - [Stack Exchange Question and Answer 2](https://stats.stackexchange.com/questions/338255/what-is-effect-of-increasing-number-of-hidden-layers-in-a-feed-forward-nn)
+{: .refbox}
+
+
+##### How to replace the layers in NN ? (Collecting)
+
+- [Keras replacing input layer](https://stackoverflow.com/questions/49546922/keras-replacing-input-layer)
+
 <br>
 <br>
 

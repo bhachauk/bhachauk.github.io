@@ -57,3 +57,4 @@
 - [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
 - [A Byte of Python](https://python.swaroopch.com/)
 - [Reinforcement Learning Book](https://sites.ualberta.ca/~szepesva/RLBook.html)
+- [Deep Learning Book](http://www.deeplearningbook.org)

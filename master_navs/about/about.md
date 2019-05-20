@@ -23,7 +23,7 @@ title: About me
 
 <div class="abtBtnContainer">
 <button onclick="toggle(event,'timeline')" class="cmnBtn currentBtn">Time Line</button>
-<button onclick="toggle(event,'profile')" class="cmnBtn">Profile</button>
+<button onclick="toggle(event,'profile')" class="cmnBtn">Industry</button>
 </div>
 
 
@@ -36,8 +36,10 @@ title: About me
 <h6>{{job.designation}}</h6>
 <p>{{job.teams}}</p>
 <p style="color: #699">{{job.period}}</p>
-<p style="profileDescription">Domain : {{job.domain}}</p>
-<p style="profileDescription">Languages : {{job.languages}}</p>
+<table>
+<tr><td style="font-weight:bold">Domain</td><td style="padding-left: 15px">{{job.domain}}</td></tr>
+<tr><td style="font-weight:bold">Languages</td><td style="padding-left: 15px">{{job.languages}}</td></tr>
+</table>
 </div>
 {% endfor %}
 
