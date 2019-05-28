@@ -25,6 +25,8 @@ html {
 body {
     font: 15px/1.8 'Merriweather Sans', sans-serif;
     color: $darkGray;
+    min-height: 100%;
+    width: 100%;
 }
 
 code {
