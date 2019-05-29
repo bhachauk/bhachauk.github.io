@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div style ="min-height: 100%;  height: auto !important;">
 <div class="tab">
     {% for cats in site.categories %}
     {% if cats[0] != site.postpath %}
@@ -35,5 +36,4 @@ layout: default
 {% endif %}
 {% endfor %}
 {% include welcomenote.html %}
-
-<br>
+</div>

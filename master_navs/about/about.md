@@ -11,10 +11,10 @@ title: About me
 **RF Design | Wireless | Optical Network | Data Science**
 {: .txt-center}
 
-<div class="wrapper-footer">
-    <footer class="svgBox">
+<div class="wrapper-svg">
+    <div class="svgBox">
       {% include svg-icons.html %}
-    </footer>
+    </div>
 </div>
 
 <br>
@@ -29,7 +29,7 @@ title: About me
 
 {% for job in site.data.profile %}
 <div class="profileCard profile show " style="display:none; margin: 5%;">
-<img src="{{job.logo}}" align= "right"/>
+<a href="{{job.link}}"><img src="{{job.logo}}" align= "right"/></a>
 <h4>{{job.company}}</h4>
 <b>{{job.location}}</b>
 <br>

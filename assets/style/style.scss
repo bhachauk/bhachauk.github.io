@@ -19,14 +19,16 @@
 
 
 html {
-  font-size: 100%;
+  position: relative;
+  min-height: 100%;
+  zoom: 80%;
 }
 
 body {
     font: 15px/1.8 'Merriweather Sans', sans-serif;
     color: $darkGray;
-    min-height: 100%;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 code {
@@ -375,7 +377,34 @@ blockquote {
   }
 }
 
-.wrapper-footer {
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.footer-container {
+  width: auto;
+  max-width: 680px;
+  padding-top: 25px;
+  p{
+    font-size: 0.5 rem;
+  }
+}
+
+i{
+  border-radius: 50%;
+  padding: 0.3em 0.3em;
+  vertical-align: middle;
+  position: relative;
+  align: center;
+  display: block;
+}
+
+.wrapper-svg {
     background: white;  /* fallback for old browsers */
     border-radius: 7px;
     border-color: #111;
@@ -388,27 +417,10 @@ blockquote {
             -webkit-filter: invert(100%);
         }
     }
+
     h2{
         font-size: 20px;
     }
-}
-
-i{
-  border-radius: 50%;
-  padding: 0.3em 0.3em;
-  vertical-align: middle;
-  position: relative;
-  align: center;
-  display: block;
-}
-.footer {
-    background-color: #333;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    color: white;
-    text-align: center;
-    align: center;
 }
 
 .svgBox
