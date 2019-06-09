@@ -7,7 +7,7 @@ layout: qanda
 
 <br>
   
-It may be a funny question to ask in this time of era. Any way, Let’s start with
+It may be a funny question to ask in this technological era. Any way, Let’s start with
 this question.
 It is like, computers learn by themselves not using any explicit programming
 requirements. Here we need to align the process flow to achieve this. Such as like,
