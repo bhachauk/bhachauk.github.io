@@ -1,5 +1,6 @@
 ---
 github: docker-tutorial
+youtube: PyEu5bUXkyo
 ---
 
 <kbd class="imgtitle">Contents</kbd>
@@ -10,6 +11,7 @@ github: docker-tutorial
 - [Run as Container](#run-as-container)
 - [Common facilities](#common-facilities)
 - [Other facilities](#other-facilities)
+- [Single Page Guide](#single-page-guide)
 - [Reference](#references)
 {: .contentBorder .txt-pad}
 
@@ -235,6 +237,13 @@ Docker has many more awesome facilities such as,
 
 These facilities used for <mark>High availability</mark>, <mark>distributed processing</mark>, <mark>scaling</mark>
 and <mark>zero down time deployment</mark> (almost).
+
+### Single Page Guide
+
+Also I have created single page guide which helps you to quickly act with docker. It consists simple **4 steps** guide you
+to quickly done the dockerization.
+
+<embed src="https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.pdf" type="application/pdf" height="500px" width="100%"/>
 
 ### References
 
