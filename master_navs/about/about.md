@@ -24,10 +24,10 @@ title: About me
 <div class="abtBtnContainer">
 <button onclick="toggle(event,'timeline')" class="cmnBtn currentBtn">Time Line</button>
 <button onclick="toggle(event,'profile')" class="cmnBtn">Industry</button>
+<button onclick="toggle(event,'skills')" class="cmnBtn">Skills</button>
 </div>
 
-
-{% for job in site.data.profile %}
+{% for job in site.data.profile.industry %}
 <div class="profileCard profile show " style="display:none; margin: 5%;">
 <a href="{{job.link}}"><img src="{{job.logo}}" align= "right"/></a>
 <h4>{{job.company}}</h4>
@@ -38,9 +38,34 @@ title: About me
 <p style="color: #699">{{job.period}}</p>
 <table>
 <tr><td style="font-weight:bold">Domain</td><td style="padding-left: 15px">{{job.domain}}</td></tr>
-<tr><td style="font-weight:bold">Languages</td><td style="padding-left: 15px">{{job.languages}}</td></tr>
 </table>
+<h6>Languages</h6>
+{% for lang in job.languages %}
+{% for master in site.data.skills.languages %}
+{% if master.name == lang %}
+<div class="inline-block" style="margin: 15px;">
+<table>
+<tr><td><i class="{{master.code}} fa-3x"></i></td></tr>
+<tr><td class="txt-center">{{lang}}</td></tr>
+</table></div>
+{% endif %}
+{% endfor %}
+{% endfor %}
 </div>
+{% endfor %}
+
+{% for prof in site.data.skills %}
+<div class="profileCard skills show" style="display:none;margin-top: 5%">
+<h6>{{ prof[0] | capitalize }}</h6>
+<div class="txt-center">
+{% for info in prof[1] %}
+<div class="inline-block" style="margin: 15px;">
+<table>
+<tr><td class="txt-center"><i class="{{info.code}} fa-3x"></i></td></tr>
+<tr><td class="bold txt-center">{{info.name}}</td></tr>
+</table></div>
+{% endfor %}
+</div></div>
 {% endfor %}
 
 ###### Now

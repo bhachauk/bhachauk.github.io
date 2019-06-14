@@ -614,7 +614,7 @@ button:focus {outline:0;}
     color: white;
 }
 .cmnBtn{
-    width: 49.5%;
+    width: 33%;
     padding: 10px;
     align: center;
     border: solid 2px #333;
@@ -623,9 +623,10 @@ button:focus {outline:0;}
 }
 .abtBtnContainer{
  padding: auto;
- border: solid 1px black;
- background: #333;
  display: inline-table;
  width: 100%;
  text-align:center;
+ }
+ .bold {
+    font-weight: bold;
  }

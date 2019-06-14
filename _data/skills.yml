@@ -1,0 +1,53 @@
+domains:
+- name: Machine Learning
+  code: fas fa-brain
+- name: Deep Learning
+  code: fas fa-robot
+- name: Antenna Theory
+  code: fas fa-broadcast-tower
+- name: RF Design
+  code: fas fa-layer-group
+- name: Optical Network
+  code: fas fa-network-wired
+- name: Automotive Embedded
+  code: fas fa-microchip
+
+languages:
+- name: Java
+  code: fab fa-java
+- name: Python
+  code: fab fa-python
+- name: Groovy
+  code: fas fa-code
+- name: JS
+  code: fab fa-js
+- name: C
+  code: fas fa-code
+- name: R
+  code: fab fa-r-project
+- name: CPP
+  code: fas fa-code
+- name: React
+  code: fab fa-react
+- name: SQL
+  code: fas fa-database
+
+tools:
+- name: Matlab
+  code: fas fa-calculator
+- name: ADS
+  code: fas fa-draw-polygon
+- name: CST
+  code: fas fa-vector-square
+- name: Arduino
+  code: fas fa-infinity
+- name: Gradle
+  code: fas fa-republican
+- name: Jenkins
+  code: fab fa-jenkins
+- name: Docker
+  code: fab fa-docker
+- name: Kubernetes
+  code: fas fa-dharmachakra
+- name: Vector Cast
+  code: fas fa-chevron-right
