@@ -5,7 +5,7 @@ title: About me
 
 <br>
 
-![me](https://media.licdn.com/dms/image/C5103AQHDVN6GgndO6w/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=O1G7xe8Qa26t8KDzfmidJUG6xhQK03Pmhqo4BZeWd2k)
+![me](/images/bhanuchander_udhayakumar.jpeg)
 ###### Bhanuchander Udhayakumar
 {: .txt-center}
 **RF Design | Wireless | Optical Network | Data Science**

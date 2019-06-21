@@ -33,12 +33,14 @@ languages:
   code: fas fa-database
 
 tools:
-- name: Matlab
+- name: Matlab/Octave
   code: fas fa-calculator
 - name: ADS
   code: fas fa-draw-polygon
 - name: CST
   code: fas fa-vector-square
+- name: NS2
+  code: fas fa-server
 - name: Arduino
   code: fas fa-infinity
 - name: Gradle
@@ -51,3 +53,9 @@ tools:
   code: fas fa-dharmachakra
 - name: Vector Cast
   code: fas fa-chevron-right
+
+others:
+- name: HAM ASOC
+  code: fas fa-wifi
+- name: BLUEZ
+  code: fab fa-bluetooth
