@@ -13,7 +13,7 @@ description: Simple detailing about Wavelength Division Multiplexing a technique
 
 A technology used to transmit multiple optical signals by multiplexing into an one signal. It is commonly described frequency division multiplexing while it is used in RF radio carriers.
 - In Dense Wavelength Division Multiplexing, Only 1550 nm Wavelength band is used.
-- C band (1525 - 1565 nm) and L band (1570 - 1610 nm), These bands works well with the EDFAs.
+- **C band** (<mark>1525 - 1565 nm</mark>) and **L band** (<mark>1570 - 1610 nm</mark>), These bands works well with the EDFAs.
 
 ###### WDM Components :
 ---

@@ -42,8 +42,8 @@ Normally Python design requires these three important parameter values (As said 
 
 ##### Assumption
     
-Here for example Resonant frequency **2.4GHz**, dielectric constant **4.4** and the height of the cavity
-substrate **1.6 mm** used. The velocity of the EM Wave (V) is **$$ 3 \times \mathrm{10}\,8  \ m/s $$**.
+Here for example Resonant frequency **2.4 GHz**, dielectric constant **4.4** and the height of the cavity
+substrate **1.6 mm** used. The velocity of the EM Wave (V) is **3 * 10^8 m/s**.
 
 So the python code initiated with the assumptions like shown below,
 
@@ -77,8 +77,7 @@ All Parameter equations are converted as python methods to calculate and view th
 To Find the Patch antenna Length (L) and Width (W)
 
 ```python
-def DesignPatch(Er, h, Freq):
-    
+def DesignPatch (Er, h, Freq):    
     Eo = 8.854185e-12
     lambd = 3e8 / Freq
     lambdag = lambd / sqrt(Er)
@@ -97,8 +96,7 @@ def DesignPatch(Er, h, Freq):
     print("Patch Length,  L: " + str(L) + "m")
     print("Patch Height,  h: " + str(h) + "m")
     return W, L
-
-W, L = DesignPatch(Er, h, freq)
+W, L = DesignPatch (Er, h, freq)
 ```
 
 Patch Width,  W: 0.0380362887156m
@@ -342,12 +340,9 @@ def PatchEHPlanePlot(Freq, W, L, h, Er, isLog=True):
 
 fields = PatchEHPlanePlot(freq, W, L, h, Er)
 ```
-
-<kbd class="imgtitle">Plot of EH Plane</kbd>
-
-![Plot](/images/patch/eh-plot.png)
-{: .imgbrd }
-
+<p class="txt-center">
+<img style="width:30rem;" src="/images/patch/eh-plot.png"/>
+</p>
 
 ##### Surface Plot - 3D
 ---

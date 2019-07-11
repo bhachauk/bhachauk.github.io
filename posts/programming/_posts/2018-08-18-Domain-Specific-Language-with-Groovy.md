@@ -33,15 +33,9 @@ a specif domain with our own derived <mark>keywords</mark> will be considered as
 
 If you are new to <mark>Groovy</mark>, First go through basics such as,
 
-- [Difference between Java and Groovy](http://groovy-lang.org/differences.html)
-- [Integration](http://groovy-lang.org/integrating.html)
-
-Find my <mark>GitHub</mark> Repo for Groovy snippets below,
-
-> [![Git](/images/c-git.png "Learn_Groovy"){: .center}](https://github.com/Bhanuchander210/Learn_Groovy.git)
-**[GitHub : Learn_Groovy](https://github.com/Bhanuchander210/Learn_Groovy.git "Learn_Groovy")** <br>
-Simple Code Snippets and Handbook for Groovy
-{: .txt-center}
+- [Difference between Java and Groovy](http://groovy-lang.org/differences.html) : Official documentation
+- [Integration](http://groovy-lang.org/integrating.html) 
+- Find my Repo [Learn Groovy](https://github.com/Bhanuchander210/Learn_Groovy.git) for Groovy snippets below,
  
 ## Simple Implementation in Java
 ---
@@ -175,13 +169,9 @@ Other facilities like,
 - Javax.mail for EMail.
 - JDBC for Dabatabases.
 
-We can create a language layer with our own <mark>keywords</mark> over default methods from the libraries. So I have created simple template <mark>DSL build</mark> for these general activities and hope that it will let you understand the DSL Development in <mark>high level</mark>. 
-
-
-> [![Git](/images/c-git.png "DSL"){: .center}](https://github.com/Bhanuchander210/dsl.git)
-**[GitHub : DSL](https://github.com/Bhanuchander210/dsl.git "DSL")** <br>
- A template build for DSL
- {: .txt-center}
+We can create a language layer with our own <mark>keywords</mark> over default methods from the libraries. So 
+I have created simple template [DSL build](https://github.com/Bhanuchander210/dsl.git) for these general activities and 
+hope that it will let you understand the DSL Development in <mark>high level</mark>. 
 
 ## Sample DSL Codes
 ---
@@ -246,7 +236,6 @@ jsonstudy{
 
 ```groovy
 filestudy {
-
     inputFile fileName
     filterLine 'Richard Parker'
     result{
