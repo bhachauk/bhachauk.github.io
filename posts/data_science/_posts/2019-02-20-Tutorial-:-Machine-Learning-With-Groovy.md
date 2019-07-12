@@ -236,23 +236,32 @@ Scatter plot is used to visualize the clusters. The result plots are,
 ---
 **DBSCAN**
 
-![dbscan](https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/dbscan.png)
+<p class="txt-center">
+<img src="https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/clustering/dbscan.png" style="width:50%;">
+</p>
 
 ---
+
 **KMean**
 
-![kmean](https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/kmean.png)
+<p class="txt-center">
+<img src="https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/clustering/kmean.png" style="width:50%;">
+</p>
 
 ---
+
 **Fuzzy KMean**
 
-![fuzzy kmean](https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/fuzzykmean.png)
-
+<p class="txt-center">
+<img src="https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/clustering/fuzzykmean.png" style="width:50%;">
+</p>
 ---
+
 **Multiple KMean**
 
-![Multiple KMean](https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/multiplekmean.png)
-
+<p class="txt-center">
+<img src="https://raw.githubusercontent.com/Bhanuchander210/Learn_Groovy/master/Chapter_9-Machine_Learning/clustering/multiplekmean.png" style="width:50%;">
+</p>
 
 # References
 ---
