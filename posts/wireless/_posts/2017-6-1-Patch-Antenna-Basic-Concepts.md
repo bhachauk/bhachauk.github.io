@@ -2,9 +2,6 @@
 shiny: patch
 ---
 
-### Basics of Patch Antenna and Observations
-<hr>
-
 <kbd class="imgtitle">Contents</kbd>
 
 1. **[Patch Antenna - Intro](#introduction)**
