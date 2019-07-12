@@ -1,16 +1,18 @@
 - name: facebook
   link: https://www.facebook.com/sharer/sharer.php?u=
-  img: facebook-square-brands.svg
+  icon: fab fa-facebook-f fa-2x
 - name: twitter
   link: https://twitter.com/intent/tweet?text=
-  img: twit.svg
+  icon: fab fa-twitter fa-2x
 - name: google+
   link: https://plus.google.com/share?url=
-  img: gplus.svg
+  icon: fab fa-google-plus-g fa-2x
 - name: pinterest
   link: http://pinterest.com/pin/create/button/?url=
-  img: pint.svg
+  icon: fab fa-pinterest-p fa-2x
 - name: linkedin
-  img: linkedin.svg
+  link: https://www.linkedin.com/shareArticle?mini=true&url=
+  icon: fab fa-linkedin-in fa-2x
 - name: email
-  img: mail.svg
+  link: mailto:?subject=
+  icon: fas fa-envelope fa-2x

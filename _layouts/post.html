@@ -1,24 +1,8 @@
 ---
 layout: default
 ---
-<div class="adarea">
-    <div align="center">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- square_ads -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:80px;height:80px"
-             data-ad-client="ca-pub-4337241726293598"
-             data-ad-slot="3327134282"></ins>
-        <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
-    <div id="titleBar">
-    <span>
-        <h1 align="center">{{ page.title }}</h1>
-    </span>
-    </div>
-</div>
+
+{% include title.html %}
 <div class="container">
 <button onclick="topFunction()" id="myBtn" title="Go to top">
   <i class="fa fa-arrow-up inv" aria-hidden="true"></i>
@@ -27,22 +11,17 @@ layout: default
   <i class="fa fa-arrow-down inv" aria-hidden="true"></i>
 </button>
 <article class="post">
-  <span>
-    <p align="center"> {% include post-icons.html %}</p>
-  </span>
-  <hr width="25%" size="1" style="color: blue;border-style: dashed;" />
-  <br>
+  <!--<hr width="25%" size="1" style="color: blue;border-style: dashed;" />-->
+  <!--<br>-->
   <div class="txtContainer">
     <div class="entry">
       {{ content }}
     </div>
   </div>
 </article>
-
-  {% include share-bar.html %}
-
-<div class="commentContainer">
     {% include comment-note.html %}
+    {% include share-bar.html %}
+<div class="commentContainer">
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
     <div class="txt-center">
         <button class="commentButton" onclick="hide()"><a href="{{post.url}}#disqus_thread">comments</a></button>

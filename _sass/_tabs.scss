@@ -14,9 +14,9 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 6px 9px;
+  padding: 0.6rem;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 0.6rem;
 }
 
 /* Change background color of buttons on hover */
@@ -79,13 +79,12 @@
     align: center;
     width: 55%;
 
-
     p, li {
         font-family: $lobs;
     }
 
     ol, p, h3{
-        font-size: 20px;
+        font-size: 1rem;
         letter-spacing: 1px;
         text-align: center;
     }
@@ -95,7 +94,7 @@
 
     h3{
         font-family: $charm;
-        font-size: 32px;
+        font-size: 1.6rem;
         padding: 15px;
         background-image: linear-gradient(to right, red, orange 50%, brown);
         color: transparent;

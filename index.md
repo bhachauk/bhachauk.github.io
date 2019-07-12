@@ -24,8 +24,8 @@ layout: default
      {% endfor %}
   </div>
   <div class="indexContainer">
-  <div class="txt-center">
-  <h3>{{ cats[0] | replace: '-',' '| replace: '_', ' '| capitalize }}</h3>
+  <div class="txt-center slogan">
+  <h3 style="color: #912905;">{{ cats[0] | replace: '-',' '| replace: '_', ' '| capitalize }}</h3>
   </div>
   <div class="posts">
     {% for post in cats[1] %}

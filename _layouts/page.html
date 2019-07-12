@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<br>
+{% include title.html %}
 <article class="page">
   <div class="container">
   <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -10,11 +10,6 @@ layout: default
   <button onclick="bottomFunction()" id="myBottomBtn" title="Go to bottom">
     <i class="fa fa-arrow-down inv" aria-hidden="true"></i>
   </button>
-  <div id="titleBar">
-    <span>
-      <h1 align="center">{{ page.title }}</h1>
-    </span>
-  </div>
   <div class="entry">
     <div class="txtContainer">
     {{ content }}

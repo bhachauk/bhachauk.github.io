@@ -112,7 +112,6 @@ img.git{
 #titleBar {
   overflow: hidden;
   margin-top: 15px;
-  height: 200px;
   width : 100%;
   text-align: center;
   background: #414141;
@@ -177,6 +176,27 @@ p.alcenter{
 .txtContainer{
   padding-right: 35px;
   padding-left: 35px;
+  h1{
+    font-size: 1.2rem;
+  }
+  h2{
+      font-size: 1.15rem;
+  }
+  h3{
+      font-size: 1.1rem;
+  }
+  h4{
+      font-size: 1.05rem;
+  }
+  h5{
+      font-size: 1rem;
+  }
+  h6{
+      font-size: 0.95rem;
+  }
+  a, p, pre {
+    font-size: 0.8rem;
+  }
 }
 
 .commentContainer{
@@ -275,7 +295,8 @@ nav.masterTab {
     background-color: inherit;
     display: inline-block;
   a {
-    margin-left: 15px;
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
     color: white;
     align: center;
     letter-spacing: 1px;
@@ -293,19 +314,6 @@ nav.masterTab {
   border-bottom: none;
 }
 
-blockquote {
-    margin: 1.8em .8em;
-    padding: 0.1em 1em;
-    color: #131;
-    padding-left: 20px;
-    font-size: 15px;
-    min-height: 20px;
-    background-color: #ebeef2;
-    border-left: 5px solid #aaa;
-    border-radius: 4px;
-    box-shadow: 1px 1px 1px 1px #aaa;
-    display:inline-block;
-}
 .post {
 
   .comments {
@@ -322,6 +330,10 @@ blockquote {
     width: 100%;
     height: auto;
     background-color: #414141;
+    color: #aaa;
+    i{
+        color: #aaa;
+    }
 }
 
 .footer {
@@ -332,14 +344,16 @@ blockquote {
     background-color: #333;
     color: white;
     text-align: center;
+    p{
+        font-size: 0.6rem;
+        padding-top: 0.6rem;
+      }
 }
 .footer-container {
   width: auto;
   max-width: 680px;
   padding-top: 25px;
-  p{
-    font-size: 0.5 rem;
-  }
+  margin: 5%;
 }
 
 i{
@@ -453,6 +467,24 @@ th{
          }
 }
 
+blockquote{
+    width: 100%;
+    margin: 1.8em .8em;
+    padding: 0.1em 1em;
+    color: #131;
+    padding-left: 20px;
+    font-size: 15px;
+    min-height: 20px;
+    background-color: #ebeef2;
+    border-radius: 4px;
+    display:inline-block;
+    color: gray;
+    &:hover{
+        box-shadow: 5px 5px 5px 1px #aaa;
+        color: #444;
+    }
+}
+
 #myBottomBtn {
   display: none;
   bottom: 60px;
@@ -485,7 +517,6 @@ button:focus {outline:0;}
     display: inline-block;
     cursor: pointer;
     a{
-        font-size: 10px;
         color: white;
         font-family: $merriWeather;
     }
@@ -510,10 +541,7 @@ button:focus {outline:0;}
     font-weight: bold;
     text-align: center;
     font-size: 15px;
-    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a1a105;
 }
 
 .gitHubTitle{
