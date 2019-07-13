@@ -214,6 +214,9 @@ p.alcenter{
   background: white;
   max-width: 1200px;
   width: 75%;
+  @include mobile {
+    width: 100%;
+  }
   a.post_link{
       &:hover, &:active {
         color: $coral;
@@ -402,9 +405,7 @@ i{
     width: auto;
 }
 
-i.langicon:hover{
-    color: coral;
-}
+
 
 .txt-pad{
     padding-left: 37px;
@@ -595,11 +596,14 @@ button:focus {outline:0;}
 }
 .cmnBtn{
     width: 33%;
+    @include mobile {
+        width: auto;
+    }
     padding: 10px;
     align: center;
     border: solid 2px #333;
     cursor: pointer;
-    display:inline-block;
+    display: inline-block;
 }
 .abtBtnContainer{
  padding: auto;

@@ -6,6 +6,9 @@
     margin: 2%;
     img{
         width: 80px;
+        @include mobile{
+            width: 50px;
+        }
     }
     table{
         font-size: 12px;
@@ -15,4 +18,11 @@
 
 .inline-block {
    display: inline-block;
+}
+
+.langicon{
+        width: 1rem;
+}
+i.langicon:hover{
+    color: coral;
 }

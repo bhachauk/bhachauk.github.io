@@ -1,6 +1,7 @@
 ---
 github: docker-tutorial
 youtube: PyEu5bUXkyo
+slideshare: docker-ppt-155269170
 ---
 
 <kbd class="imgtitle">Contents</kbd>
@@ -20,8 +21,13 @@ youtube: PyEu5bUXkyo
 This post explains about the steps involved in containerizing an application using <mark>docker</mark> tool.
 Also tried to disclose an overview on other areas related to this topic.
 
-> Containers are an abstraction at application layer that packages the codes and dependencies together, 
-ships the application and run-time environment.
+<p class="txt-center">
+<img src="https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/data/containerizing.jpg" style="width: 70%;"/>
+</p>
+
+> A **Container** is a running instance of a docker image.
+**Containers** are an abstraction at application layer that packages the codes and dependencies together, 
+ships the application and a run-time environment.
 
 Container are running on the <mark>docker engine</mark> almost as VM but not exactly. It has lot of merits in production basis
 and currently it is booming in IT-Industry now. For example containerizing an application with *docker* or *kubernetes* provides
@@ -238,12 +244,18 @@ Docker has many more awesome facilities such as,
 These facilities used for <mark>High availability</mark>, <mark>distributed processing</mark>, <mark>scaling</mark>
 and <mark>zero down time deployment</mark> (almost).
 
-### Single Page Guide
+### Some Useful
 
-Also I have created single page guide which helps you to quickly act with docker. It consists simple **4 steps** guide you
+Also I have created a [single page guide](https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.pdf) which helps you to quickly act with docker. It consists simple **4 steps** guide you
 to quickly done the dockerization.
 
-<embed src="https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.pdf" type="application/pdf" height="500px" width="100%"/>
+Here i have shared the slides of docker - overview which explains the concepts behind this technology. Have a look at this to understand quickly and move on ... :)
+
+<div class="txt-center">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/xB0OZjRiC7WB5h" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</div>
+
+
 
 ### References
 
