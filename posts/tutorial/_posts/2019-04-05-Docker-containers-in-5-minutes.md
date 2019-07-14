@@ -25,6 +25,9 @@ Also tried to disclose an overview on other areas related to this topic.
 <img src="https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/data/containerizing.jpg" style="width: 70%;"/>
 </p>
 
+
+###### Containers
+
 > A **Container** is a running instance of a docker image.
 **Containers** are an abstraction at application layer that packages the codes and dependencies together, 
 ships the application and a run-time environment.
