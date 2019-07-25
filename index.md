@@ -37,3 +37,4 @@ layout: default
 {% endfor %}
 {% include welcomenote.html %}
 </div>
+![itachi](images/ita-oro.jpeg)

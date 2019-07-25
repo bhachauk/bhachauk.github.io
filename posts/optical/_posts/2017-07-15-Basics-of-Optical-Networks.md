@@ -167,21 +167,16 @@ These can be separated as shown below,
 
 Normally the port is the end of the network that can be derived by,
 
-<span class="left"><kbd class="lang">Port Name</kbd></span>
-<span class="right"><kbd class="lang">text</kbd></span>
+###### Port Name
 
-```
-    Port    =          /rack=1/shelf=1/slot=1/sub_slot=1/port=2
-```
+Port    =   RACK:1,SHELF:1,SLOT:1,SUB_SLOT:1,PORT:2
+{: .output}
+
 
 ###### Path of the Circuit to the Cross connection
 
-<span class="left"><kbd class="lang">Link between Objects</kbd></span>
-<span class="right"><kbd class="lang">Graph</kbd></span>
-
-```
 Service/ Circuit ---->  SNC_n ----> Route_n ----> CC_n
-```
+{: .output}
 
 <p class="noteHeader">Note: All components above are interconnected by their own siblings</p>
 
