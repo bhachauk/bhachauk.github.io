@@ -10,7 +10,9 @@ title: About me
 {: .txt-center}
 **RF Design | Wireless | Optical Network | Data Science**
 {: .txt-center}
-
+<div class="txt-center">
+    <a class="github-button" href="https://github.com/bhanuchander210" data-size="large" data-show-count="true" aria-label="Follow @bhanuchander210 on GitHub">Follow @bhanuchander210</a>
+</div>
 <div class="wrapper-svg">
     <div class="svgBox">
       {% include svg-icons.html %}

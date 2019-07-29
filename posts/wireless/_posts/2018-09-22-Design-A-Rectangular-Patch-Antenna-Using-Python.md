@@ -2,7 +2,6 @@
 github: patch-antenna
 ---
 
-*Last Update : 24 Jun 2019* 
 {: .txt-center}
 
 <kbd class="imgtitle">Contents</kbd>
