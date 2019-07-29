@@ -1,5 +1,5 @@
 ---
-github: Learn_Groovy/tree/master/Chapter_9-Machine_Learning
+github: Learn_Groovy
 oneliner: Clustering with Groovy
 ---
 

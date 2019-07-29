@@ -1,0 +1,29 @@
+<h5 align="center">Related Posts</h5>
+<hr>
+<div class="relatedPostBoard">
+    {% if page.previous %}
+    <a class="relatedPostCell" href="{{ page.previous.url }}">
+        <span>
+            <p>{{ page.previous.title }}</p>
+        </span>
+    </a>
+    {% endif %}
+    {% if page.next %}
+    <a class="relatedPostCell rightpost" href="{{ page.next.url }}">
+        <span>
+            <p>{{ page.next.title }}</p>
+        </span>
+    </a>
+    {% endif %}
+</div>
+<div align="center">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;width:120px;height:120px;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-4337241726293598"
+         data-ad-slot="7760438976"></ins>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
