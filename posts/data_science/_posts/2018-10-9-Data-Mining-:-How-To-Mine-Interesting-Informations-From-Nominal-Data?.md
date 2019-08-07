@@ -1,5 +1,5 @@
 ---
-github: Learn_MachineLearning/tree/master/04.Data_Mining/Association_rule_mining
+github: Learn_MachineLearning
 oneliner: Turning Data into Interesting Information
 kaggle: data-mining-a-demo-with-titanic-data
 ---
