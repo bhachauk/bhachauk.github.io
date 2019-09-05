@@ -47,8 +47,8 @@ title: About me
 {% if master.name == lang %}
 <div class="inline-block" style="margin: 15px;">
 <table>
-<tr><td><i class="{{master.code}} fa-3x langicon"></i></td></tr>
-<tr><td class="txt-center">{{lang}}</td></tr>
+<tr><td align="center"><i class="{{master.code}} fa-3x"></i></td></tr>
+<tr><td align="center">{{lang}}</td></tr>
 </table></div>
 {% endif %}
 {% endfor %}
@@ -63,8 +63,8 @@ title: About me
 {% for info in prof[1] %}
 <div class="inline-block" style="margin: 15px;">
 <table>
-<tr><td class="txt-center"><i class="{{info.code}} fa-3x langicon"></i></td></tr>
-<tr><td class="bold txt-center">{{info.name}}</td></tr>
+<tr><td><i class="{{info.code}} fa-3x"></i></td></tr>
+<tr><td class="txt-center"> {{info.name}}</td></tr>
 </table></div>
 {% endfor %}
 </div></div>
