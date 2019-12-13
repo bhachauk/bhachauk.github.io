@@ -73,11 +73,25 @@ title: About me
 ###### Now
 {: .timeline .show}
 
+- Started working on multiple project works,
+    - Docker-tutorial - [[Git](https://github.com/Bhanuchander210/docker-tutorial)] - 
+        [[Guide](https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf)] - 
+        [[Video](https://youtu.be/PyEu5bUXkyo)]
+    - Face authentication - [[Git](https://github.com/Bhanuchander210/face_authentication)]
+    - Evaluate classification model - [[Git](https://github.com/Bhanuchander210/evaluate_classification_model)]
+    - Devengers - [[Git](https://github.com/Bhanuchander210/devengers)] (A Hackathon Project)
+{: .timeline .show}
+
+###### 2018
+{: .timeline .show}
+
+- Submitted my academic project paper [Effects of added Secondary Dielectric material on the Performance of a Microstrip patch Antenna](https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012061) 
+at the conference [IconAmma 2018](http://web-blr.amrita.edu/IConAMMA/archives/2018/index.html) and got published in **IOP Conference Series: Materials Science**.
 - Currently Learning more about machine learning and deep learning also implementing in required areas with various platforms
  such as Java / Groovy, Python and R.
 - Doing some fun works such as,
-    - **[Naruto Eye Classifier using Deep Learning - Live](https://bhanuchander210.github.io/naruto_eyes_classification)**
-\...
+    - [Naruto Eye Classifier using Deep Learning - Live](https://bhanuchander210.github.io/naruto_eyes_classification)
+    - [Design patch antenna and simulation - Live](https://bhanuchander210.github.io/patch-antenna)
 {: .timeline .show}
 
 ###### 2017
