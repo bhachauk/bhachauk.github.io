@@ -1,0 +1,42 @@
+inspired_chars:
+  - name: Uchiha Itachi
+    logo: /images/chars/itachi.jpeg
+    link: https://naruto.fandom.com/wiki/Itachi_Uchiha
+  - name: Yagami Light
+    logo: /images/chars/yl.jpeg
+    link: https://deathnote.fandom.com/wiki/Light_Yagami
+  - name: Bruno
+    logo: /images/chars/bruno.jpeg
+    link: https://en.wikipedia.org/wiki/Bicycle_Thieves
+  - name: IronMan
+    logo: /images/chars/ironman.jpeg
+    link: https://en.wikipedia.org/wiki/Bicycle_Thieves
+
+games:
+  - name: dota2
+    logo: /images/games/dota2.jpeg
+    link: http://www.dota2.com/
+  - name: aoe2
+    logo: /images/games/aoe2.jpeg
+    link: https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/
+  - name: tombraider
+    logo: /images/games/tomb.png
+    link: https://store.steampowered.com/app/750920/Shadow_of_the_Tomb_Raider_Definitive_Edition/
+  - name: farcry
+    logo: /images/games/farcry.png
+    link: https://www.ubisoft.com/en-us/game/far-cry-4
+  - name: cod
+    logo: /images/games/cod.jpeg
+    link: https://www.callofduty.com/blackops4
+  - name: Hitman
+    logo: /images/games/hitman.png
+    link: https://en.wikipedia.org/wiki/Hitman_(franchise)
+  - name: Assassin's creed
+    logo: /images/games/ac.jpeg
+    link: https://www.ubisoft.com/en-us/game/assassins-creed-brotherhood
+  - name: Half life 2
+    logo: /images/games/hl2.png
+    link: https://store.steampowered.com/app/220/HalfLife_2/
+  - name: Halo 4
+    logo: /images/games/halo4.jpeg
+    link: https://store.steampowered.com/app/1064273/Halo_4/

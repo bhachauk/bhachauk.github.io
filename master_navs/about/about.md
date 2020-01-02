@@ -27,7 +27,29 @@ title: About me
 <button onclick="toggle(event,'timeline')" class="cmnBtn currentBtn">Time Line</button>
 <button onclick="toggle(event,'profile')" class="cmnBtn">Industry</button>
 <button onclick="toggle(event,'skills')" class="cmnBtn">Skills</button>
+<button onclick="toggle(event,'personal')" class="cmnBtn">Personal</button>
 </div>
+
+
+<div class="profileCard personal show txt-center" style="display:none;">
+<h6>Inspired Fictional Characters</h6>
+{% for char in site.data.personal.inspired_chars %}          
+        <a href="{{char.link}}" style="align:left;display:inline-block;">
+            <img src="https://bhanuchander210.github.io/{{char.logo}}" style="width:50px;height:auto;"/>
+        </a>
+{% endfor %}
+</div>
+
+
+<div class="profileCard personal show txt-center" style="display:none;">
+<h6>Favourite Games</h6>
+{% for game in site.data.personal.games %}          
+        <a href="{{game.link}}" style="align:left;display:inline-block;">
+            <img src="https://bhanuchander210.github.io{{game.logo}}" style="width:50px;height:auto;"/>
+        </a>
+{% endfor %}
+</div>
+
 
 {% for job in site.data.profile.industry %}
 <div class="profileCard profile show " style="display:none; margin: 5%;">
