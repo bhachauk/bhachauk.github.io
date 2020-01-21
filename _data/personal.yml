@@ -40,3 +40,6 @@ games:
   - name: Halo 4
     logo: /images/games/halo4.jpeg
     link: https://store.steampowered.com/app/1064273/Halo_4/
+  - name: Fear 2
+    logo: /images/games/fear.jpeg
+    link: https://en.wikipedia.org/wiki/F.E.A.R._2:_Project_Origin
