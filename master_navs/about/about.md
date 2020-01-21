@@ -35,7 +35,7 @@ title: About me
 <h6>Inspired Fictional Characters</h6>
 {% for char in site.data.personal.inspired_chars %}          
         <a href="{{char.link}}" style="align:left;display:inline-block;">
-            <img src="https://bhanuchander210.github.io/{{char.logo}}" style="width:50px;height:auto;"/>
+            <img src="{{ site.baseurl }}{{char.logo}}" style="width:50px;height:auto;"/>
         </a>
 {% endfor %}
 </div>
@@ -45,7 +45,7 @@ title: About me
 <h6>Favourite Games</h6>
 {% for game in site.data.personal.games %}          
         <a href="{{game.link}}" style="align:left;display:inline-block;">
-            <img src="https://bhanuchander210.github.io{{game.logo}}" style="width:50px;height:auto;"/>
+            <img src="{{ site.baseurl }}{{game.logo}}" style="width:50px;height:auto;"/>
         </a>
 {% endfor %}
 </div>

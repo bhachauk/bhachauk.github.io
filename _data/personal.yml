@@ -43,3 +43,6 @@ games:
   - name: Fear 2
     logo: /images/games/fear.jpeg
     link: https://en.wikipedia.org/wiki/F.E.A.R._2:_Project_Origin
+  - name: PUBG
+    logo: /images/games/pubg.png
+    link: https://www.pubg.com/
