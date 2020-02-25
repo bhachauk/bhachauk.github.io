@@ -157,18 +157,39 @@ of all direction.
 
 *Image Source : [Research Gate](https://www.researchgate.net/figure/Normalized-radiation-patterns-of-the-conformal-patch-antenna-array-and-its-conformal_fig12_281027053){: .link}*
 
+According to the reference **Antenna Theory: Analysis and Design by Constantine A. Balanis : Chapter 14.2.3**,
+There are two kind of equations (*14-53a*, *14-55a*) which is used to calculate the value <mark>I</mark> for different cases <mark>single slot</mark> and <mark>two slot</mark>. 
+
+![Single slot](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/patch_i1.png)
+![Two slot](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/patch_i2.png)
+
+<br>
+So that we can get two different directivity values as <mark>d1</mark> and <mark>d2</mark> calculated from <mark>i1</mark>, <mark>i2</mark> respectively.
+The script to calculate <mark>i1</mark> value has been implemented as method <mark>get_i1()</mark> when the other one <mark>i2</mark> skipped because of complexity.
+  
 ```python
-I1=1.863
-I2=3.59801
-
-d1, d2 = get_directivity(G1, G12, W, freq, I1, I2)
-
-print('Directivity : ', d1, ' dB')
-print('Directivity : ', d2, ' dB')
+i1 = get_i1(W, freq)
+print("The value for equation (14-53a) : ", i1)
 ``` 
 
-Directivity :  3.88419387395  dB
-Directivity :  5.04023487871  dB
+The value for equation (14-53a) :  1.1479757280698542
+{: .output}
+
+Then the second value **i2** assumed here which is need to be calculated manually from the equation **14-55a**. The directivity
+calculation methods are,
+
+```python
+d1 = get_directivity(W, freq, L)
+print('Directivity : ', d1, ' dB')
+
+# Let's assume the value i2
+i2 = 2
+d2 = get_directivity_two_slot(W, freq, i2)
+print("Directivity (two-slot) : ", d2, ' dB')
+```
+
+Directivity :  5.9869953652616035  dB
+Directivity (two-slot) :  7.59055858259433  dB
 {: .output}
 
 <br>
@@ -219,4 +240,9 @@ Thanks to the sources,
 
 **Update 1 : 23/02/2020**
 Source code of python moved as package [patch_util](https://github.com/Bhanuchander210/patch-antenna/tree/master/patch_util) from normal python file and the post re-organized.
+{: .refbox}
+
+
+**Update 2 : 25/02/2020**
+Directivity related equations and codes updated in post and also in package [patch_util](https://github.com/Bhanuchander210/patch-antenna/tree/master/patch_util) from normal python file and the post re-organized.
 {: .refbox}
