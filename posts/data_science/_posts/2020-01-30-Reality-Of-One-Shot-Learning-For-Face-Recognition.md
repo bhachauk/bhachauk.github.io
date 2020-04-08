@@ -51,6 +51,8 @@ layer followed by sigmoid activation function was implemented on tensor layers f
 ![SiameseNet](/images/ds/SiameseResNet50.png)
 
 
+<br><br>
+
 #### Results
 
 The results of Siamese Network test accuracy scores and real time scores are not up to the expectation as discussed in
@@ -62,34 +64,46 @@ The results are shown below,
 
 ###### Applying Low Epochs size : 5
 
-|Loss History|Accuracy History|
+
 |------------|----------------|
 |![Low_epoch_Loss](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Loss_Old.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_Old.png)|
 
  
 ###### Applying Low Epochs size : 50
 
-|Loss History|Accuracy History|
+
 |------------|----------------|
 |![Low_epoch_Loss](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Loss_50.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_50.png)|
 
 
-After increasing the epochs size, The model seems well with cross validation test data. But when this trained loaded applied in 
-real time test data, It may even get **0 %** accuracy.
+<br><br>
 
-The point is **Siamese network** for face authentication with the discussed **One shot learning** technique is not reliable in my observations or may be i am wrong with implementation (If yes please correct me).
+After increasing the epochs size, The model seems well with cross validation test data. But when this trained loaded applied in 
+real time test data, It may even get <mark>0 %</mark> accuracy. 
+
+
+```commandline
+$ Loaded model accuracy : 0 %
+```
+
+
+
+The point is **Siamese network** for face authentication with 
+the discussed **One shot learning** technique is not reliable in my observations or may be i am wrong with implementation (If yes please correct me).
 As said in theories, the siamese network with transfer learned deep learning neural network can't learn from lowest data 
-(4-5 images per class. Even they mentioned 1 image per class idk how ?) even highly performing transfer learned model loaded.
+(**4-5 images** per class. *Even they mentioned 1 image per class idk how ?*) even highly performing transfer learned model loaded.
 
 
 #### Conclusion
 
-One shot learning with siamese network may be work well with simple convolutional neural networks having few layers only.
-These kind of architecture only fit for the **Similarity Detection** based tasks such as hand write recognition, 
+**One shot learning with siamese network** may be work well with **simple convolutional neural networks** having few layers only.
+These kind of architecture only fit for the <mark>Similarity Detection</mark> based tasks such as hand write recognition, 
 shapes similarity level calculation and etc. 
 
-If we increase the size of the convolutional network the learning phase would requires more system resources and time.
-So continuous / online learning is a difficult one for this kind of situations. Please correct me if any thing wrong.
+
+
+If we increase the size of the convolutional network the learning phase would requires more system resources and consumes large time.
+So continuous / online learning is a difficult one for these kind of situations. **Please correct me if any thing wrong**.
 
 #### References
 ---
