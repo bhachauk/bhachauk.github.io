@@ -75,6 +75,11 @@ defaults:
       path: "master_navs/myapps"
     values:
       layout: "gh_default"
+  -
+    scope:
+      path: "master_navs/eSports"
+    values:
+      layout: "gh_default"
 
 #
 # !! You don't need to change any of the configuration flags below !!

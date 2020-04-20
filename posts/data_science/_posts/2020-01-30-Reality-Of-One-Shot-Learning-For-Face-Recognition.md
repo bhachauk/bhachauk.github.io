@@ -34,7 +34,7 @@ recommended solution for these kind of specific problems.
 
 <br><br>
 
-Here **Two ConvNet pre-trained models** are followed by a custom layer with <mark>sigmoid</mark> activated final layer 
+Here **Two Convolution Networks pre-trained models** are followed by a custom layer with <mark>sigmoid</mark> activated final layer 
 used to learn the similarity between the two image inputs. The work flow would be like,
 
 - <mark>Pre-trained networks</mark> generates the **feature vectors** from its final layer.
@@ -78,8 +78,8 @@ The results are shown below,
 
 <br><br>
 
-After increasing the epochs size, The model seems well with cross validation test data. But when this trained loaded applied in 
-real time test data, It may even get <mark>0 %</mark> accuracy. 
+After increasing the epochs size, The model seems well with cross validation test data. But when this siamese model trained and loaded in 
+real time test, It may even get <mark>0 %</mark> accuracy. 
 
 
 ```commandline
