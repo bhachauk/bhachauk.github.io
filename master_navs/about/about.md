@@ -105,10 +105,7 @@ title: About me
 - Created some youtube videos of our **DOTA 2** funny moments, 
     - [Wind ranger mid lane game play](https://youtu.be/f4bw0UhZFQM)
     - [Rubik vs Pangolier funny moments](https://youtu.be/qw-NyOemmHI)
-    - [Lion vs Spirit Breaker funny moment](https://youtu.be/8HvsOPd01xY)
-    
-- Also playing the e-sport **Dota 2** : [profile](https://www.opendota.com/players/1007275674) 
-
+    - [Lion vs Spirit Breaker funny moment](https://youtu.be/8HvsOPd01xY) 
 
 
 ###### 2019
@@ -130,7 +127,7 @@ title: About me
 - Started working around the techniques such as **docker**, **kubernetes** and cloud platform deployments.
     
 - Created videos for teaching <mark>docker</mark> tutorials. video : [link](https://youtu.be/PyEu5bUXkyo)
-- Started learning to play the MOBA Game [DOTA 2](www.dota2.com).
+- Started learning to play the MOBA Game [DOTA 2](www.dota2.com). If you wanna see my [profile](https://www.opendota.com/players/1007275674).
 {: .timeline .show}
 
 ###### 2018
