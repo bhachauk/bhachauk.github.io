@@ -22,3 +22,8 @@
   link: https://bhanuchander210.github.io/emspectrum/
   desc: A Simple visualization of Electro Magnetic Spectrum using ReactJS.
   img: https://bhanuchander210.github.io/emspectrum/img/em.gif
+
+- name: GitHub Profiler
+  link: https://bhanuchander210.github.io/github_profiler/
+  desc: To simply visualize and summary of a GitHub Users from their famous repositories and their used programming languages.
+  img: https://raw.githubusercontent.com/Bhanuchander210/github_profiler/master/assets/img/demo.png
