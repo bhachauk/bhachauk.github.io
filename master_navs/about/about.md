@@ -93,6 +93,25 @@ title: About me
 {% endfor %}
 
 ###### Now
+
+- Did some online learning,
+
+    - Tensorflow for AI and deep learning- [[Certificate](https://www.coursera.org/account/accomplishments/certificate/DQ8PLHDVWZCP)]
+
+- Some github apps,
+    - GitHub profiler - [[Git](https://github.com/Bhanuchander210/github_profiler)]
+    - Reality of one shot learning - [[Git](https://github.com/Bhanuchander210/reality_of_one_shot_learning)]
+    
+- Created some youtube videos of our **DOTA 2** funny moments, 
+    - [Wind ranger mid lane game play](https://youtu.be/f4bw0UhZFQM)
+    - [Rubik vs Pangolier funny moments](https://youtu.be/qw-NyOemmHI)
+    - [Lion vs Spirit Breaker funny moment](https://youtu.be/8HvsOPd01xY)
+    
+- Also playing the e-sport **Dota 2** : [profile](https://www.opendota.com/players/1007275674) 
+
+
+
+###### 2019
 {: .timeline .show}
 
 - Started working on multiple project works,
@@ -102,6 +121,16 @@ title: About me
     - Face authentication - [[Git](https://github.com/Bhanuchander210/face_authentication)]
     - Evaluate classification model - [[Git](https://github.com/Bhanuchander210/evaluate_classification_model)]
     - Devengers - [[Git](https://github.com/Bhanuchander210/devengers)] (A Hackathon Project)
+
+- Did online learning on machine learning and ai topics,
+    - [Structuring ML Projects](https://www.coursera.org/account/accomplishments/certificate/ZGSYFLWZNZPB) 
+    - [Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NDSPCE87STM3)
+    - [Convolution Neural Networks](https://www.coursera.org/account/accomplishments/verify/Z9DRR3STWJNW)
+    
+- Started working around the techniques such as **docker**, **kubernetes** and cloud platform deployments.
+    
+- Created videos for teaching <mark>docker</mark> tutorials. video : [link](https://youtu.be/PyEu5bUXkyo)
+- Started learning to play the MOBA Game [DOTA 2](www.dota2.com).
 {: .timeline .show}
 
 ###### 2018
