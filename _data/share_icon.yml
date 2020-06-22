@@ -16,3 +16,7 @@
 - name: email
   link: mailto:?subject=
   icon: fas fa-envelope fa-2x
+- name: whatsapp
+  link: whatsapp://send?text=
+  icon: fab fa-whatsapp fa-2x
+  other: data-action="share/whatsapp/share"

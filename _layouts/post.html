@@ -12,6 +12,7 @@ layout: default
     <button onclick="bottomFunction()" id="myBottomBtn" title="Go to bottom">
       <i class="fa fa-arrow-down inv" aria-hidden="true"></i>
     </button>
+    {% include share-bar.html %}
     <article class="post">
       <!--<hr width="25%" size="1" style="color: blue;border-style: dashed;" />-->
       <!--<br>-->
@@ -23,7 +24,6 @@ layout: default
       </div>
     </article>
     {% include comment-note.html %}
-    {% include share-bar.html %}
     <div class="commentContainer">
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
     <div class="txt-center">

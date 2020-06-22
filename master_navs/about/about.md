@@ -12,6 +12,8 @@ title: About me
 {: .txt-center}
 <div class="txt-center">
     <a class="github-button" href="https://github.com/bhanuchander210" data-size="large" data-show-count="true" aria-label="Follow @bhanuchander210 on GitHub">Follow @bhanuchander210</a>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UC2JbRYaC-USnGgzEi2uiaqQ" data-layout="default" data-theme="dark" data-count="default"></div>
 </div>
 <div class="wrapper-svg">
     <div class="svgBox">
@@ -24,11 +26,30 @@ title: About me
 <br>
 
 <div class="abtBtnContainer">
-<button onclick="toggle(event,'timeline')" class="cmnBtn currentBtn">Time Line</button>
+<button onclick="toggle(event,'summary')" class="cmnBtn currentBtn">Summary</button>
 <button onclick="toggle(event,'profile')" class="cmnBtn">Industry</button>
 <button onclick="toggle(event,'skills')" class="cmnBtn">Skills</button>
+<button onclick="toggle(event,'timeline')" class="cmnBtn">Time Line</button>
 <button onclick="toggle(event,'personal')" class="cmnBtn">Personal</button>
 </div>
+
+
+<br><br>
+
+
+Hi there, I am currently working as a **Software Engineer** in chennai. I love to develop full stack applications using <mark>Python</mark>,
+<mark>Java</mark>, <mark>groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Data mining** and **AI / ML** based projects mostly around **Sequence models** and **Computer Vision**.
+Also I work in devops side around **docker**, **kubernetes** for developing / releasing cloud natured full stack application (**GCP**, **AWS**and **Azure**).
+I like to use text editor <mark>sublime</mark>, also the **IDE**s <mark>PyCharm</mark> and <mark>IntelliJ</mark>.
+<br>
+<br>
+During my academics, I have worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed lot of **Patch Antennas** and **RF filters** by
+familiarized  with the **RF Tools** such as <mark>ADS</mark> and <mark>CST</mark>.
+<br>
+<br> 
+In my free time, I develop **github pages** from my random thoughts / ideas. As a master degree graduate in **Wireless technology**,
+I am continuing to contribute for the development of **Antennas** / **RF Design** based codes and content posts.
+{: .show .summary style="margin: 0px 50px 100px 50px; font-size: 40;"}
 
 
 <div class="profileCard personal show txt-center" style="display:none;">
@@ -58,10 +79,10 @@ title: About me
 <b>{{job.location}}</b>
 <br>
 <h6>{{job.designation}}</h6>
-<p>{{job.teams}}</p>
+<p >{{job.teams}}</p>
 <p style="color: #699">{{job.period}}</p>
 <table>
-<tr><td style="font-weight:bold">Domain</td><td style="padding-left: 15px">{{job.domain}}</td></tr>
+<tr><td style="font-weight:bold">Domain :</td><td style="padding-left: 15px;">{{job.domain}}</td></tr>
 </table>
 <h6>Languages</h6>
 {% for lang in job.languages %}
@@ -93,6 +114,7 @@ title: About me
 {% endfor %}
 
 ###### Now
+{: .timeline .show}
 
 - Did some online learning,
 
@@ -106,12 +128,12 @@ title: About me
     - [Wind ranger mid lane game play](https://youtu.be/f4bw0UhZFQM)
     - [Rubik vs Pangolier funny moments](https://youtu.be/qw-NyOemmHI)
     - [Lion vs Spirit Breaker funny moment](https://youtu.be/8HvsOPd01xY) 
-
+{: .timeline .show}
 
 ###### 2019
 {: .timeline .show}
 
-- Started working on multiple project works,
+- Did multiple github repositories as common utils for organizing various application requirements,
     - Docker-tutorial - [[Git](https://github.com/Bhanuchander210/docker-tutorial)] - 
         [[Guide](https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf)] - 
         [[Video](https://youtu.be/PyEu5bUXkyo)]
@@ -119,12 +141,10 @@ title: About me
     - Evaluate classification model - [[Git](https://github.com/Bhanuchander210/evaluate_classification_model)]
     - Devengers - [[Git](https://github.com/Bhanuchander210/devengers)] (A Hackathon Project)
 
-- Did online learning on machine learning and ai topics,
+- Did some online learning on machine learning and ai topics,
     - [Structuring ML Projects](https://www.coursera.org/account/accomplishments/certificate/ZGSYFLWZNZPB) 
     - [Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NDSPCE87STM3)
     - [Convolution Neural Networks](https://www.coursera.org/account/accomplishments/verify/Z9DRR3STWJNW)
-    
-- Started working around the techniques such as **docker**, **kubernetes** and cloud platform deployments.
     
 - Created videos for teaching <mark>docker</mark> tutorials. video : [link](https://youtu.be/PyEu5bUXkyo)
 - Started learning to play the MOBA Game [DOTA 2](www.dota2.com). If you wanna see my [profile](https://www.opendota.com/players/1007275674).
@@ -133,11 +153,11 @@ title: About me
 ###### 2018
 {: .timeline .show}
 
-- Submitted my academic project paper [Effects of added Secondary Dielectric material on the Performance of a Microstrip patch Antenna](https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012061) 
+- Published my academic project papers such as,
+    - [Effects of added Secondary Dielectric material on the Performance of a Microstrip patch Antenna](https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012061) 
 at the conference [IconAmma 2018](http://web-blr.amrita.edu/IConAMMA/archives/2018/index.html) and got published in **IOP Conference Series: Materials Science**.
-- Currently Learning more about machine learning and deep learning also implementing in required areas with various platforms
- such as Java / Groovy, Python and R.
-- Doing some fun works such as,
+    - **Development of a Patch Antenna Based Dielectric Constant measurement System for S Band Microwave Frequencies** in Journal of the Instrument Society of India, Volume 48, Issue 2, Pages 73-76, Instrument Society of India.
+- Did some github pages in the domains of **Antennas** and **Image classification** such as,
     - [Naruto Eye Classifier using Deep Learning - Live](https://bhanuchander210.github.io/naruto_eyes_classification)
     - [Design patch antenna and simulation - Live](https://bhanuchander210.github.io/patch-antenna)
 {: .timeline .show}
@@ -145,11 +165,11 @@ at the conference [IconAmma 2018](http://web-blr.amrita.edu/IConAMMA/archives/20
 ###### 2017
 {: .timeline .show}
 
-- Joined in **[NMSWorks Pvt Ltd](http://nmsworks.co.in)**, IITM Research Park, Chennai.
+- Joined as a **Software Engineer** in **[NMSWorks Pvt Ltd](http://nmsworks.co.in)**, IITM Research Park, Chennai as Software Developer.
 - Worked as a Graduate Technical Intern at **[Visteon Technical and Service Center, Chennai](http://www.visteon.com/).**
-- Did Intern-Project in visteon and submitted the thesis titled as **[Integration of Bluetooth Wireless Stack for Automotive INVANET Communication](http://ijesc.org/upload/0937dc48f9d484fb58073aea2fbeccfd.Integration%20of%20Bluetooth%20Wireless%20Stack%20for%20Automotive%20INVANET%20Communication.pdf)**.
-- Graduated in M.E (Wireless technology) from **[Anna University – MIT Campus](http://www.mitindia.edu/en/)**. 
-- Started to learn and write about **[Groovy](https://github.com/Bhanuchander210/Learn_Groovy), [Mysql](https://github.com/Bhanuchander210/Mysql), [Python](https://github.com/Bhanuchander210/my_python_tutorial_1), [Optical Tx Networks](https://github.com/Bhanuchander210/Learn_Optical)**.
+- Did Intern-Project in [visteon technical and service center](https://www.visteon.com/) for 6 months as a part of the teams of **Instrument Clusters** and **Infotainment** and 
+submitted the thesis titled as **[Integration of Bluetooth Wireless Stack for Automotive INVANET Communication](http://ijesc.org/upload/0937dc48f9d484fb58073aea2fbeccfd.Integration%20of%20Bluetooth%20Wireless%20Stack%20for%20Automotive%20INVANET%20Communication.pdf)**.
+- Graduated with first class distinction in M.E (Wireless technology) from **[Anna University – MIT Campus](http://www.mitindia.edu/en/)**. 
 {: .timeline .show}
 
 ###### 2016
@@ -165,13 +185,13 @@ at the conference [IconAmma 2018](http://web-blr.amrita.edu/IConAMMA/archives/20
 ###### 2015
 {: .timeline .show}
 
-- Graduated in B.E (Electronics and Communication Engineering) from **[Government College of Engineering, Tirunelveli](http://www.gcetly.ac.in/)** with the thesis submission on Railway Security System with Wireless Communication.
+- Graduated with first class in B.E (Electronics and Communication Engineering) from **[Government College of Engineering, Tirunelveli](http://www.gcetly.ac.in/)** also with the thesis submission on Advancing The Railway Security Systems with Wireless Communication.
 {: .timeline .show}
 
 ###### 2014
 {: .timeline .show}
 
-- Did Initial-Level Projects related Automated Vehicle Using <mark>Arduino</mark> and submitted as a mini-project.
+- Did competition level projects related on Automated Vehicle Using <mark>Arduino</mark> and submitted as a mini-project.
 {: .timeline .show}
 
 ###### 2013

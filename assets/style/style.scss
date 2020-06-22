@@ -582,11 +582,13 @@ button:focus {outline:0;}
     }
 }
 
-.timeline{
+
+
+.summary{
     display:block;
 }
 
-.profile {
+.profile, .timeline {
     display:none;
 }
 
@@ -595,7 +597,7 @@ button:focus {outline:0;}
     color: white;
 }
 .cmnBtn{
-    width: 24%;
+    width: 19%;
     @include mobile {
         width: auto;
     }

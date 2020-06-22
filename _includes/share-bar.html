@@ -4,11 +4,19 @@
    <div class="txt-center">
        {% for icon in site.data.share_icon %}
        <div class="share_button">
+           {% if icon.name == whatsapp%}
+           <a  href="{{icon.link}}{{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
+               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+               title="Share on {{icon.name}}"  {{icon.other}}>
+               <i class="{{icon.icon}} share_button_i"></i>
+           </a>
+           {% else %}
            <a  href="{{icon.link}}{{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                title="Share on {{icon.name}}">
                <i class="{{icon.icon}} share_button_i"></i>
            </a>
+           {% endif %}
        </div>
        {% endfor %}
     </div>
