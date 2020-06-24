@@ -8,7 +8,7 @@ title: About me
 ![me](/images/bhanuchander_udhayakumar.jpeg)
 ###### Bhanuchander Udhayakumar
 {: .txt-center}
-**RF Design | Wireless | Optical Network | Data Science**
+**Data Science | Artificial Intelligence | Machine Learning | Programmer | RF Design | PC Gamer**
 {: .txt-center}
 <div class="txt-center">
     <a class="github-button" href="https://github.com/bhanuchander210" data-size="large" data-show-count="true" aria-label="Follow @bhanuchander210 on GitHub">Follow @bhanuchander210</a>
