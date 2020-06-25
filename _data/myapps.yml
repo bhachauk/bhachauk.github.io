@@ -9,9 +9,9 @@
   img: https://raw.githubusercontent.com/Bhanuchander210/naruto_eyes_classification/master/data/naruto_eyes_prediction-web.gif
 
 - name: Design and Simulator of Patch Antenna
-  link: https://bhanuchander210.github.io/patch-antenna
+  link: https://bhanuchander210.github.io/patch-antenna-util
   desc: Patch antenna desiging and simulating with Lovely 3D views and custom variables.
-  img: https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/anim.gif
+  img: https://raw.githubusercontent.com/Bhanuchander210/patch-antenna-util/master/resource/anim.gif
 
 - name: Dockerizing - A Single Page Quick Guide
   link: https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf
