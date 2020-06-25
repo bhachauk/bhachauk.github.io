@@ -112,9 +112,9 @@ There are multiple types of feeding to patch antenna. This design output is used
 
 <kbd class="imgtitle">Patch antenna feeding types</kbd>
 
-<div class="imgbrd">
-<img src="/images/patch/patch_antenna_types.png" style="width:800px;"/>
-</div>
+
+![types](/images/patch/patch_antenna_types.png)
+{: .imgbrd}
 
 ##### Optimal Inset Feed position (inset_length)
 
