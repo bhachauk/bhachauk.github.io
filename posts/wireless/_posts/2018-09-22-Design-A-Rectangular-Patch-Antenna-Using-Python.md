@@ -43,8 +43,6 @@ Normally Python design requires these three important parameter values (As said 
 - Height of the Dielectric Thickness (h)
 
 
-I have moved my python codes to the Repo : [Patch Antenna](https://github.com/Bhanuchander210/patch-antenna) and packaged as **patch_util**.
-
 
 ### 2. Calculate Patch Antenna Parameters
 ---
