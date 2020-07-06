@@ -1,5 +1,5 @@
 ---
-github: patch_antenna
+github: patch-antenna-util
 ---
 
 
