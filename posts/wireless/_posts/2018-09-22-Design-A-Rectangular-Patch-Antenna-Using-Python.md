@@ -17,12 +17,17 @@ Directivity related equations and codes updated in post and also in package [pat
 Released as python package [patch_antenna](https://pypi.org/project/patch-antenna/) in pypi and the post organized.
 {: .refbox}
 
+
+**Update 4 : 05/08/2020**
+Gerber facility added for both python package and live demo.
+{: .refbox}
+
 {: .txt-center}
 
 <kbd class="imgtitle">Contents</kbd>
 
 1. [Introduction](#1-introduction)
-1. [Antenna Parameters](#2-calculate-patch-antenna-parameters)
+1. [Design antenna](#2-design-antenna)
 1. [Description](#3-description)
 1. [Other Parameters](#4-other-parameters)
 1. [Antenna Simulator](#5-antenna-simulator---live)
@@ -44,8 +49,11 @@ Normally Python design requires these three important parameter values (As said 
 
 
 
-### 2. Calculate Patch Antenna Parameters
+### 2. Design Antenna
 ---
+
+
+Especially for rectangular patch antenna the python package : [patch-antenna](https://pypi.org/project/patch-antenna/) created. Please follow below steps / guidelines for the usage.
 
 
 ###### Installation
@@ -99,6 +107,23 @@ The output of the code is just pretty printed using package <mark>json</mark>. A
     "input_edge_impedance": 321.50075290241097
 }
 {: .output}
+
+
+##### Gerber facility
+
+The design can be stored as <mark>gerber</mark> file, which is commonly required for cnc fabrication. 
+
+- Normal feed
+
+```python
+pa.write_gerber(freq, er, h, 'patch_design_normal_2.4GHz_4.4_er_1.6_h.gbr', 'normal')
+```
+
+- Inset feed
+
+```python
+pa.write_gerber(freq, er, h, 'patch_design_inset_2.4GHz_4.4_er_1.6_h.gbr', 'inset')
+```
 
 
 ### 3. Description
@@ -243,7 +268,7 @@ surface_plot(fields)
 ### 5. Antenna Simulator - Live
 ---
 
-Also i have migrated these thing into <mark>Javascript</mark> to make a live demo to the viewer.
+Also i have migrated these thing into <mark>Javascript</mark> to make a live demo to the viewer and also the design can be downloaded as gerber file <mark>.gbr</mark> for fabrication. 
 
 [![demo](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/anim.gif)](https://bhanuchander210.github.io/patch-antenna/)
 
