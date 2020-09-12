@@ -1,0 +1,42 @@
+- title: Academic
+  years:
+    year:
+      - title: 2017
+        works:
+        - note: Master of Engineering in Wireless technology - <b>First class distinction</b> - <a href="http://www.mitindia.edu/en/"> Anna University – MIT Campus</a>.
+      - title: 2015
+        works:
+        - note: Bachelor of Engineering in Electronics and Communication Engineering - <b>First class</b> - <a href="http://www.gcetly.ac.in/">Government College of Engineering, Tirunelveli</a>.
+      - title: 2011
+        works:
+        - note: Higher Secondary Schools on Bio-Maths - <b>93.75 %</b> - Devangar Higher Secondary School, Aruppukottai .
+      - title: 2009
+        works:
+        - note: SSLC - <b>94.4 %</b> - Devangar Higher Secondary School, Aruppukottai.
+- title: Publications
+  years:
+    year:
+      - title: 2018
+        works:
+        - note: Effects of added Secondary Dielectric material on the Performance of a Microstrip patch Antenna
+          link: https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012061
+          info: Presented at the conference <a href="http://web-blr.amrita.edu/IConAMMA/archives/2018/index.html">IconAmma 2018</a> and got published in <b>IOP Conference Series Materials Science</b>.
+        - note: Development of a Patch Antenna Based Dielectric Constant measurement System for S Band Microwave Frequencies
+          info: Published in Journal of the Instrument Society of India, Volume 48, Issue 2, Pages 73-76, Instrument Society of India.
+- title: GitHub Hobby Projects
+  years:
+    year:
+      - title: 2020
+        works:
+        - note: Published a open source python package <a href="https://pypi.org/project/patch-antenna/">patch_antenna</a> in PyPI. <img src="https://pepy.tech/badge/patch-antenna" alt="Downloads">
+          info: This package used to design a rectangular patch antenna for both inset feed and normal feed types. Gerber file genration support also included for the design for fabrication.
+      - title: 2018
+        works:
+        - note: Patch Antenna Util - For Online design, 3D simulation and Gerber generation
+          link: https://bhanuchander210.github.io/patch-antenna-util/
+          info: For the purpose of ease availability and to reduce the need of big <b>EDA Tools</b>, Patch antenna design, 3D Simulation and Gerber support
+            are combined in this one tool. Using this tool, one can design and get a gerber file of a Patch antenna in few seconds even with a awesome 3D view.
+        - note: Naruto Eye Classifier using Deep Learning - Live
+          link: https://bhanuchander210.github.io/naruto_eyes_classification
+          info: Online based deep learning classification hobby project, created by basic convolutional neural networks like
+           <b>CNN1, CNN2, CNN3, LeNet</b> with locally trained data set for the purpose of understanding neural networks from scratch.

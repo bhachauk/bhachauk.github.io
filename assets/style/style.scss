@@ -536,6 +536,7 @@ button:focus {outline:0;}
 @import "article";
 @import "qanda";
 @import "profile";
+@import "slideshow";
 
 .oneliner{
     font-family: 'Charmonman', cursive;
@@ -588,7 +589,7 @@ button:focus {outline:0;}
     display:block;
 }
 
-.profile, .timeline {
+.profile, .timeline, .moocs {
     display:none;
 }
 
@@ -597,7 +598,7 @@ button:focus {outline:0;}
     color: white;
 }
 .cmnBtn{
-    width: 19%;
+    width: 16%;
     @include mobile {
         width: auto;
     }

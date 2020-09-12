@@ -11,6 +11,7 @@ title: About me
 **Data Science | Artificial Intelligence | Machine Learning | Programmer | RF Design | PC Gamer**
 {: .txt-center}
 <div class="txt-center">
+    <a href="https://twitter.com/Bhanuchander_U?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @Bhanuchander_U</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <a class="github-button" href="https://github.com/bhanuchander210" data-size="large" data-show-count="true" aria-label="Follow @bhanuchander210 on GitHub">Follow @bhanuchander210</a>
     <script src="https://apis.google.com/js/platform.js"></script>
     <div class="g-ytsubscribe" data-channelid="UC2JbRYaC-USnGgzEi2uiaqQ" data-layout="default" data-theme="dark" data-count="default"></div>
@@ -30,6 +31,7 @@ title: About me
 <button onclick="toggle(event,'profile')" class="cmnBtn">Industry</button>
 <button onclick="toggle(event,'skills')" class="cmnBtn">Skills</button>
 <button onclick="toggle(event,'timeline')" class="cmnBtn">Time Line</button>
+<button onclick="toggle(event,'moocs')" class="cmnBtn">Moocs</button>
 <button onclick="toggle(event,'personal')" class="cmnBtn">Personal</button>
 </div>
 
@@ -38,7 +40,7 @@ title: About me
 
 
 Hi there, I am currently working as a **Software Engineer** in chennai. I love to develop full stack applications using <mark>Python</mark>,
-<mark>Java</mark>, <mark>groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Data mining** and **AI / ML** based projects mostly around **Sequence models** and **Computer Vision**.
+<mark>Java</mark>, <mark>Groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Data mining** and **AI / ML** based projects mostly around **Sequence models** and **Computer Vision**.
 Also I work in devops side around **docker**, **kubernetes** for developing / releasing cloud natured full stack application (**GCP**, **AWS**and **Azure**).
 I like to use text editor <mark>sublime</mark>, also the **IDE**s <mark>PyCharm</mark> and <mark>IntelliJ</mark>.
 <br>
@@ -113,103 +115,44 @@ I am continuing to contribute for the development of **Antennas** / **RF Design*
 </div></div>
 {% endfor %}
 
-###### Now
-{: .timeline .show}
+{% for tl in site.data.timeline %}
+<div class="timeline show">
+    <div class="profileCard">
+        <h6>{{tl.title}}</h6>
+        {% for year in tl.years.year %}
+        <p>{{year.title}}</p>
+        <ul>
+        {% for work in year.works %}
+            {% if work.link %}
+                <li><a href="{{work.link}}">{{work.note}}</a></li>
+            {% else %}
+                <li><p>{{work.note}}</p></li>
+            {% endif %}
+            {% if work.info %}
+                <p class="refbox">{{work.info}}</p>     
+            {% endif %}     
+        {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
 
-- Did some online learning,
-
-    - Tensorflow for AI and deep learning- [[Certificate](https://www.coursera.org/account/accomplishments/certificate/DQ8PLHDVWZCP)]
-
-- Some github apps,
-    - GitHub profiler - [[Git](https://github.com/Bhanuchander210/github_profiler)]
-    - Reality of one shot learning - [[Git](https://github.com/Bhanuchander210/reality_of_one_shot_learning)]
-    
-- Created some youtube videos of our **DOTA 2** funny moments, 
-    - [Wind ranger mid lane game play](https://youtu.be/f4bw0UhZFQM)
-    - [Rubik vs Pangolier funny moments](https://youtu.be/qw-NyOemmHI)
-    - [Lion vs Spirit Breaker funny moment](https://youtu.be/8HvsOPd01xY) 
-{: .timeline .show}
-
-###### 2019
-{: .timeline .show}
-
-- Did multiple github repositories as common utils for organizing various application requirements,
-    - Docker-tutorial - [[Git](https://github.com/Bhanuchander210/docker-tutorial)] - 
-        [[Guide](https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf)] - 
-        [[Video](https://youtu.be/PyEu5bUXkyo)]
-    - Face authentication - [[Git](https://github.com/Bhanuchander210/face_authentication)]
-    - Evaluate classification model - [[Git](https://github.com/Bhanuchander210/evaluate_classification_model)]
-    - Devengers - [[Git](https://github.com/Bhanuchander210/devengers)] (A Hackathon Project)
-
-- Did some online learning on machine learning and ai topics,
-    - [Structuring ML Projects](https://www.coursera.org/account/accomplishments/certificate/ZGSYFLWZNZPB) 
-    - [Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NDSPCE87STM3)
-    - [Convolution Neural Networks](https://www.coursera.org/account/accomplishments/verify/Z9DRR3STWJNW)
-    
-- Created videos for teaching <mark>docker</mark> tutorials. video : [link](https://youtu.be/PyEu5bUXkyo)
-- Started learning to play the MOBA Game [DOTA 2](www.dota2.com). If you wanna see my [profile](https://www.opendota.com/players/1007275674).
-{: .timeline .show}
-
-###### 2018
-{: .timeline .show}
-
-- Published my academic project papers such as,
-    - [Effects of added Secondary Dielectric material on the Performance of a Microstrip patch Antenna](https://iopscience.iop.org/article/10.1088/1757-899X/577/1/012061) 
-at the conference [IconAmma 2018](http://web-blr.amrita.edu/IConAMMA/archives/2018/index.html) and got published in **IOP Conference Series: Materials Science**.
-    - **Development of a Patch Antenna Based Dielectric Constant measurement System for S Band Microwave Frequencies** in Journal of the Instrument Society of India, Volume 48, Issue 2, Pages 73-76, Instrument Society of India.
-- Did some github pages in the domains of **Antennas** and **Image classification** such as,
-    - [Naruto Eye Classifier using Deep Learning - Live](https://bhanuchander210.github.io/naruto_eyes_classification)
-    - [Design patch antenna and simulation - Live](https://bhanuchander210.github.io/patch-antenna)
-{: .timeline .show}
-
-###### 2017
-{: .timeline .show}
-
-- Joined as a **Software Engineer** in **[NMSWorks Pvt Ltd](http://nmsworks.co.in)**, IITM Research Park, Chennai as Software Developer.
-- Worked as a Graduate Technical Intern at **[Visteon Technical and Service Center, Chennai](http://www.visteon.com/).**
-- Did Intern-Project in [visteon technical and service center](https://www.visteon.com/) for 6 months as a part of the teams of **Instrument Clusters** and **Infotainment** and 
-submitted the thesis titled as **[Integration of Bluetooth Wireless Stack for Automotive INVANET Communication](http://ijesc.org/upload/0937dc48f9d484fb58073aea2fbeccfd.Integration%20of%20Bluetooth%20Wireless%20Stack%20for%20Automotive%20INVANET%20Communication.pdf)**.
-- Graduated with first class distinction in M.E (Wireless technology) from **[Anna University – MIT Campus](http://www.mitindia.edu/en/)**. 
-{: .timeline .show}
-
-###### 2016
-{: .timeline .show}
-
-- Did a interdisciplinary project work with Automobile Engineering funded by **[CTDT- Anna University](http://ctdt.annauniv.edu/)** which is titled as Analysis On Efficient Bio-diesel Dual Fuel Engine With EPFIS.
-- Some of the other works related to the academic discipline such as, 
-    1. Design And Analysis Of Inset Feed Rectangular Patch Antenna With Multiple Dielectric Layers.
-    2. Measurement Of Material Dielectric Constant Using A Rectangular Cavity Patch <mark>Sensor</mark>.
-    3. Protocol Analysis on <mark>In-Vanet</mark> Communication Using NS2.
-{: .timeline .show}
-
-###### 2015
-{: .timeline .show}
-
-- Graduated with first class in B.E (Electronics and Communication Engineering) from **[Government College of Engineering, Tirunelveli](http://www.gcetly.ac.in/)** also with the thesis submission on Advancing The Railway Security Systems with Wireless Communication.
-{: .timeline .show}
-
-###### 2014
-{: .timeline .show}
-
-- Did competition level projects related on Automated Vehicle Using <mark>Arduino</mark> and submitted as a mini-project.
-{: .timeline .show}
-
-###### 2013
-{: .timeline .show}
-
-- Got ASOC Restricted Grade <mark>Ham Radio</mark> Certification from the **[WPC Wing](http://www.wpc.dot.gov.in/)**, Ministry of Communications - India.
-- Did some work with the project Solar Flier, a mini-plane powered by solar panels. 
-{: .timeline .show}
-
-###### 2011
-{: .timeline .show}
-
-- Completed Higher Secondary Schools on Bio-Maths at Devangar Higher Secondary School, Aruppukottai with score 93.75 %.
-{: .timeline .show}
-
-###### 2009
-{: .timeline .show}
-
-- Completed SSLC at Devangar Higher Secondary School, Aruppukottai with score 94.4 %.
-- Completed Visharadh Poorvardh a Hindi literacy Examination organized by <mark>Dakshina Bharat Hindi Prachar Sabha</mark>.
-{: .timeline .show}
+<div class="slideshow-container moocs show">
+  {% for link in site.data.moocs.links %}
+  <div class="mySlides fade">
+    <img src="{{link}}" style="width:70%">
+  </div>
+  {% endfor %}
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center" class="moocs show">
+  {% assign i = 0 %}
+  {% for link in site.data.moocs.links %}
+    {% assign i = i | plus:1 %}
+    <span class="dot" onclick="currentSlide({{i}})"></span>
+  {% endfor %}
+</div>
+<script>plusSlides(1);plusSlides(-1)</script>
+<br>
