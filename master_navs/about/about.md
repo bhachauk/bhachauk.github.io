@@ -15,6 +15,7 @@ title: About me
     <a class="github-button" href="https://github.com/bhanuchander210" data-size="large" data-show-count="true" aria-label="Follow @bhanuchander210 on GitHub">Follow @bhanuchander210</a>
     <script src="https://apis.google.com/js/platform.js"></script>
     <div class="g-ytsubscribe" data-channelid="UC2JbRYaC-USnGgzEi2uiaqQ" data-layout="default" data-theme="dark" data-count="default"></div>
+    <!--[![Downloads](https://i1.wp.com/stackoverflow.com/users/flair/8331235.png)](https://stackoverflow.com/users/8331235/bhanuchander-udhayakumar)-->
 </div>
 <div class="wrapper-svg">
     <div class="svgBox">
