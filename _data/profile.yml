@@ -2,15 +2,14 @@ industry:
 - company: NMSWorks Software Pvt Ltd
   location: IITM Research Park, Chennai
   logo: https://www.nmsworks.co.in/image/logo/nms2_logob.png
-  designation: System Engineer
+  designation: Senior Software Engineer
   link: https://nmsworks.co.in
   period: 2017 Jul - Present
-  teams: AI-ML Team, Optical Tx-Solution Team, Software Development Team
+  teams: AI Platform - Software Development Team, Optical Tx-Solution Team
   domain: Deep Learning, Machine Learning, Network Data Mining, Domain Specific Language Development, Full-Stack-Development
   languages:
   - Java
   - Groovy
-  - R
   - Python
   - JS
   tools:
