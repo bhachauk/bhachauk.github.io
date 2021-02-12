@@ -26,6 +26,10 @@
 - title: GitHub Hobby Projects
   years:
     year:
+      - title: 2021
+        works:
+          - note: Published a open source python package <a href="https://pypi.org/project/keras-flower/">keras_flower</a> in PyPI. <img src="https://pepy.tech/badge/keras-flower" alt="Downloads">
+            info: It is a simple flower classification library trained on Densenet201 using Kaggle data set (104 classes).
       - title: 2020
         works:
         - note: Published a open source python package <a href="https://pypi.org/project/patch-antenna/">patch_antenna</a> in PyPI. <img src="https://pepy.tech/badge/patch-antenna" alt="Downloads">

@@ -40,18 +40,19 @@ title: About me
 <br><br>
 
 
-Hi there, I am currently working as a **Software Engineer** in chennai. I love to develop full stack applications using <mark>Python</mark>,
-<mark>Java</mark>, <mark>Groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Data mining** and **AI / ML** based projects mostly around **Sequence models** and **Computer Vision**.
-Also I work in devops side around **docker**, **kubernetes** for developing / releasing cloud natured full stack application (**GCP**, **AWS**and **Azure**).
+Hi there, I am currently working as a **Senior Software Engineer** in chennai. I love to develop full stack applications using <mark>Python</mark>,
+<mark>Java</mark>, <mark>Groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Artificial Intelligence** based projects mostly around **Sequence models** and **Computer Vision** for both
+Cloud environment and EDGE device.
+Also familiar with **docker**, **kubernetes** for developing cloud natured full stack application (**GCP**, **AWS** and **Azure**).
 I like to use text editor <mark>sublime</mark>, also the **IDE**s <mark>PyCharm</mark> and <mark>IntelliJ</mark>.
 <br>
 <br>
-During my academics, I have worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed lot of **Patch Antennas** and **RF filters** by
-familiarized  with the **RF Tools** such as <mark>ADS</mark> and <mark>CST</mark>.
+During my academics, I have worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed few **Patch Antennas** and **RF filters** by
+familiarized with the advanced tools such as [ADS](https://www.keysight.com/in/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html) and [CST](https://www.3ds.com/products-services/simulia/products/cst-studio-suite/).
 <br>
 <br> 
-In my free time, I develop **github pages** from my random thoughts / ideas. As a master degree graduate in **Wireless technology**,
-I am continuing to contribute for the development of **Antennas** / **RF Design** based codes and content posts.
+In my free time, I do blogging and developing **github pages** from my random ideas and also like to play MOBA games such as Dota 2. As a master degree graduate in **Wireless technology**,
+I love to contribute in the open source software development for **Antennas** and **RF Design** area.
 {: .show .summary style="margin: 0px 50px 100px 50px; font-size: 40;"}
 
 
