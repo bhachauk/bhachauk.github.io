@@ -77,7 +77,7 @@ defaults:
       layout: "gh_default"
   -
     scope:
-      path: "master_navs/eSports"
+      path: "master_navs/docs"
     values:
       layout: "gh_default"
 

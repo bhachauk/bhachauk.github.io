@@ -13,11 +13,6 @@
   desc: Patch antenna desiging and simulating with Lovely 3D views and custom variables.
   img: https://raw.githubusercontent.com/Bhanuchander210/patch-antenna-util/master/resource/anim.gif
 
-- name: Dockerizing - A Single Page Quick Guide
-  link: https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf
-  desc: Dockerizing an application with basic commands, provides an overview of the process.
-  img: https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.png
-
 - name: Electro-Magnetic-Spectrum using ReactJS
   link: https://bhanuchander210.github.io/emspectrum/
   desc: A Simple visualization of Electro Magnetic Spectrum using ReactJS.
