@@ -270,7 +270,7 @@ surface_plot(fields)
 
 Also i have migrated these thing into <mark>Javascript</mark> to make a live demo to the viewer and also the design can be downloaded as gerber file <mark>.gbr</mark> for fabrication. 
 
-[![demo](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/anim.gif)](https://bhanuchander210.github.io/patch-antenna/)
+[![demo](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/anim.gif)](https://bhanuchander210.github.io/patch-antenna-util/)
 
 This app still in development and I am always updating it due to the nature of the post :P
 
