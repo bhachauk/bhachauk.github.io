@@ -47,12 +47,12 @@ Also familiar with **docker**, **kubernetes** for developing cloud natured full 
 I like to use text editor <mark>sublime</mark>, also the **IDE**s <mark>PyCharm</mark> and <mark>IntelliJ</mark>.
 <br>
 <br>
-During my academics, I have worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed few **Patch Antennas** and **RF filters** by
+During my academics, worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed few **Patch Antennas** and **RF filters** by
 familiarized with the advanced tools such as [ADS](https://www.keysight.com/in/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html) and [CST](https://www.3ds.com/products-services/simulia/products/cst-studio-suite/).
 <br>
 <br> 
-In my free time, I do blogging and developing **github pages** from my random ideas and also like to play MOBA games such as Dota 2. As a master degree graduate in **Wireless technology**,
-I love to contribute in the open source software development for **Antennas** and **RF Design** area.
+In my free time, I do blogging and developing **github pages** from my random ideas and also like to play MOBA games such as [Dota 2](https://www.dota2.com/). Also as a master degree graduate in **Wireless technology**,
+I love to contribute in the open source software development for **Machine Learning**, **Antennas / RF Design**, and **Visualization* areas.
 {: .show .summary style="margin: 0px 50px 100px 50px; font-size: 40;"}
 
 
