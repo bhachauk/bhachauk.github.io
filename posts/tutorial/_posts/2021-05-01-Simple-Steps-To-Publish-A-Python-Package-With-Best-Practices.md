@@ -5,10 +5,10 @@ github: patch_antenna
 <kbd class="imgtitle">Contents</kbd>
 
 - [Overview](#overview)
-- [Step 1: Finalize your python package]()
-- [Step 2: Add test scripts]()
-- [Step 3: Release the distribution to PyPI]()
-- [Step 4: Use GitHub and CI Tools]()
+- [Step 1: Finalize your python package](#step-1--finalize-your-python-package)
+- [Step 2: Add test scripts](#step-2--add-test-scripts)
+- [Step 3: Release the distribution to PyPI](#step-3--release-the-distribution-to-pypi)
+- [Step 4: Use GitHub and CI Tools](#step-4--use-github-and-ci-tools)
 - [Reference](#references)
 {: .contentBorder .txt-pad}
 
