@@ -26,5 +26,5 @@
 
 - name: Adasher Comoponents - Sample
   link: https://adasher.herokuapp.com/
-  desc: To simply visualize and summary of a GitHub Users from their famous repositories and their used programming languages.
+  desc: Sample demo app for the analytics focused Dash components implementations as python package callded adasher
   img: https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/auto_analytics.png
