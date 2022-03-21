@@ -26,6 +26,10 @@
 - title: GitHub Hobby Projects
   years:
     year:
+      - title: 2022
+        works:
+          - note: Published a open source python package <a href="https://pypi.org/project/adasher/">adasher</a> in PyPI. <img src="https://pepy.tech/badge/adasher" alt="Downloads">
+            info: Analytics components wrapper over Python Dash with facilities like Auto_analytics, default stats templates, and event-based analytics.
       - title: 2021
         works:
           - note: Published a open source python package <a href="https://pypi.org/project/keras-flower/">keras_flower</a> in PyPI. <img src="https://pepy.tech/badge/keras-flower" alt="Downloads">
