@@ -1,22 +1,22 @@
+- name: whatsapp
+  link: whatsapp://send?text=
+  icon: fab fa-whatsapp fa-2x
+  other: data-action="share/whatsapp/share"
+- name: linkedin
+  link: https://www.linkedin.com/shareArticle?mini=true&url=
+  icon: fab fa-linkedin-in fa-2x
 - name: facebook
   link: https://www.facebook.com/sharer/sharer.php?u=
   icon: fab fa-facebook-f fa-2x
 - name: twitter
   link: https://twitter.com/intent/tweet?text=
   icon: fab fa-twitter fa-2x
-- name: google+
-  link: https://plus.google.com/share?url=
-  icon: fab fa-google-plus-g fa-2x
-- name: pinterest
-  link: http://pinterest.com/pin/create/button/?url=
-  icon: fab fa-pinterest-p fa-2x
-- name: linkedin
-  link: https://www.linkedin.com/shareArticle?mini=true&url=
-  icon: fab fa-linkedin-in fa-2x
+#- name: google+
+#  link: https://plus.google.com/share?url=
+#  icon: fab fa-google-plus-g fa-2x
+#- name: pinterest
+#  link: http://pinterest.com/pin/create/button/?url=
+#  icon: fab fa-pinterest-p fa-2x
 - name: email
   link: mailto:?subject=
   icon: fas fa-envelope fa-2x
-- name: whatsapp
-  link: whatsapp://send?text=
-  icon: fab fa-whatsapp fa-2x
-  other: data-action="share/whatsapp/share"

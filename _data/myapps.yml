@@ -25,6 +25,12 @@
 
 
 - name: Adasher Comoponents - Sample
-  link: https://adasher.herokuapp.com/
+  link: https://github.com/Bhanuchander210/adasher
   desc: Sample demo app for the analytics focused Dash components implementations as python package callded adasher
   img: https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/auto_analytics.png
+
+
+- name: Earthquake Analytics
+  link: https://eqanalytics.herokuapp.com/
+  desc: Basic insights and statistics on last 60 days Earthquake events with Area, Submarine optical cables.
+  img: https://raw.githubusercontent.com/Bhanuchander210/earthquake_analytics/master/eq_analytics.gif

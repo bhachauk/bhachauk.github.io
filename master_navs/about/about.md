@@ -8,7 +8,7 @@ title: About me
 ![me](/images/bhanuchander_udhayakumar.jpeg)
 ###### Bhanuchander Udhayakumar
 {: .txt-center}
-**Data Science | Artificial Intelligence | Machine Learning | Programmer | RF Design | PC Gamer**
+**Data Science | Full Stack Developer**
 {: .txt-center}
 <div class="txt-center">
     <a href="https://twitter.com/Bhanuchander_U?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @Bhanuchander_U</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
