@@ -31,6 +31,6 @@
 
 
 - name: Earthquake Analytics
-  link: https://eqanalytics.herokuapp.com/
+  link: https://github.com/Bhanuchander210/earthquake_analytics
   desc: Basic insights and statistics on last 60 days Earthquake events with Area, Submarine optical cables.
   img: https://raw.githubusercontent.com/Bhanuchander210/earthquake_analytics/master/eq_analytics.gif
