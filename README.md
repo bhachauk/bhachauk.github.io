@@ -1,4 +1,4 @@
-# Bhanuchander210.github.io
+# bhachauk.github.io
 :books: My Blog :octocat:
 With Jekyll :sparkles:
 

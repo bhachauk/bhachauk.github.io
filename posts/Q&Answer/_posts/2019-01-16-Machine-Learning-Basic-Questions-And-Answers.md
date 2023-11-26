@@ -145,7 +145,7 @@ $$
 
 
 **Reference :**
-    - [Machine Learning](https://github.com/Bhanuchander210/Learn_MachineLearning)
+    - [Machine Learning](https://github.com/bhachauk/Learn_MachineLearning)
     - [Towards data science](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
     - [ROC and AUC by Google Crash course](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 {: .refbox}

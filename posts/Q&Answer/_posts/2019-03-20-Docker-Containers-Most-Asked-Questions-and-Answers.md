@@ -5,7 +5,7 @@ layout: qanda
 <br><br>
 
 This post tried to cover the area of rarely shared and highly demanded methods in containerisation with docker and
-kubernetes. you can enhance this post by contributing in Docker-tutorial [GitHub](https://github.com/Bhanuchander210/docker-tutorial) repo.
+kubernetes. you can enhance this post by contributing in Docker-tutorial [GitHub](https://github.com/bhachauk/docker-tutorial) repo.
 I have added these kind of stuffs under **`## Quick Details`** in every <mark>readme.md</mark> of all chapters.
 
 ###### What are the Dockerfile Instructions ?
@@ -195,7 +195,7 @@ References
 ### How Deployment used over Pod and ReplicaSet in kubernetes and Why ?
 {: .qandaq}
 
-<img src="https://github.com/Bhanuchander210/docker-tutorial/raw/master/assets/img/replicaset.png" width="500">
+<img src="https://github.com/bhachauk/docker-tutorial/raw/master/assets/img/replicaset.png" width="500">
 
 The need of ReplicaSet is,
 

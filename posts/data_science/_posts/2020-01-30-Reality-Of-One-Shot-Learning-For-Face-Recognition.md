@@ -66,14 +66,14 @@ The results are shown below,
 
 
 |------------|----------------|
-|![Low_epoch_Loss](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Loss_Old.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_Old.png)|
+|![Low_epoch_Loss](https://raw.githubusercontent.com/bhachauk/reality_of_one_shot_learning/master/SiameseResNet_Loss_Old.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/bhachauk/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_Old.png)|
 
  
 ###### Applying Low Epochs size : 50
 
 
 |------------|----------------|
-|![Low_epoch_Loss](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Loss_50.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/Bhanuchander210/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_50.png)|
+|![Low_epoch_Loss](https://raw.githubusercontent.com/bhachauk/reality_of_one_shot_learning/master/SiameseResNet_Loss_50.png)|![Low_epoch_Accuracy](https://raw.githubusercontent.com/bhachauk/reality_of_one_shot_learning/master/SiameseResNet_Accuracy_50.png)|
 
 
 <br><br>
@@ -118,4 +118,4 @@ Thanks to the sources,
 [1]: https://github.com/rcmalli/keras-vggface
 [2]: https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d
 [3]: https://github.com/iwantooxxoox/Keras-OpenFace
-[4]: https://github.com/Bhanuchander210/face_authentication
+[4]: https://github.com/bhachauk/face_authentication

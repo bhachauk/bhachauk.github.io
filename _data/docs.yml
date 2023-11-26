@@ -1,7 +1,7 @@
 - name: Dockerizing - A Single Page Quick Guide
-  link: https://github.com/Bhanuchander210/docker-tutorial/raw/master/docker.pdf
+  link: https://github.com/bhachauk/docker-tutorial/raw/master/docker.pdf
   desc: Dockerizing an application with basic commands, provides an overview of the process.
-  img: https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.png
+  img: https://raw.githubusercontent.com/bhachauk/docker-tutorial/master/docker.png
 
 - name: Docker - Introduction - PPT
   link: https://www.slideshare.net/BhanuchanderVU3UBC/docker-ppt-155269170

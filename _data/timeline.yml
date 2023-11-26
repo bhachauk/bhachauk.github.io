@@ -41,10 +41,10 @@
       - title: 2018
         works:
         - note: Patch Antenna Util - For Online design, 3D simulation and Gerber generation
-          link: https://bhanuchander210.github.io/patch-antenna-util/
+          link: https://bhachauk.github.io/patch-antenna-util/
           info: For the purpose of ease availability and to reduce the need of big <b>EDA Tools</b>, Patch antenna design, 3D Simulation and Gerber support
             are combined in this one tool. Using this tool, one can design and get a gerber file of a Patch antenna in few seconds even with a awesome 3D view.
         - note: Naruto Eye Classifier using Deep Learning - Live
-          link: https://bhanuchander210.github.io/naruto_eyes_classification
+          link: https://bhachauk.github.io/naruto_eyes_classification
           info: Online based deep learning classification hobby project, created by basic convolutional neural networks like
            <b>CNN1, CNN2, CNN3, LeNet</b> with locally trained data set for the purpose of understanding neural networks from scratch.

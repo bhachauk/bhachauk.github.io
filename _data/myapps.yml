@@ -4,33 +4,33 @@
   img: /master_navs/myapps/images/networkviewer.gif
 
 - name: Naruto Ocular Power Classifier
-  link: https://bhanuchander210.github.io/naruto_eyes_classification
+  link: https://bhachauk.github.io/naruto_eyes_classification
   desc: Transfer learned Deep Neural Network chakra-fied by Tensorflow.js for classification.
-  img: https://raw.githubusercontent.com/Bhanuchander210/naruto_eyes_classification/master/data/naruto_eyes_prediction-web.gif
+  img: https://raw.githubusercontent.com/bhachauk/naruto_eyes_classification/master/data/naruto_eyes_prediction-web.gif
 
 - name: Design and Simulator of Patch Antenna
-  link: https://bhanuchander210.github.io/patch-antenna-util
+  link: https://bhachauk.github.io/patch-antenna-util
   desc: Patch antenna desiging and simulating with Lovely 3D views and custom variables.
-  img: https://raw.githubusercontent.com/Bhanuchander210/patch-antenna-util/master/resource/anim.gif
+  img: https://raw.githubusercontent.com/bhachauk/patch-antenna-util/master/resource/anim.gif
 
 - name: Electro-Magnetic-Spectrum using ReactJS
-  link: https://bhanuchander210.github.io/emspectrum/
+  link: https://bhachauk.github.io/emspectrum/
   desc: A Simple visualization of Electro Magnetic Spectrum using ReactJS.
-  img: https://bhanuchander210.github.io/emspectrum/img/em.gif
+  img: https://bhachauk.github.io/emspectrum/img/em.gif
 
 - name: GitHub Profiler
-  link: https://bhanuchander210.github.io/github_profiler/
+  link: https://bhachauk.github.io/github_profiler/
   desc: To simply visualize and summary of a GitHub Users from their famous repositories and their used programming languages.
-  img: https://raw.githubusercontent.com/Bhanuchander210/github_profiler/master/assets/img/demo.png
+  img: https://raw.githubusercontent.com/bhachauk/github_profiler/master/assets/img/demo.png
 
 
 - name: Adasher Comoponents - Sample
-  link: https://github.com/Bhanuchander210/adasher
+  link: https://github.com/bhachauk/adasher
   desc: Sample demo app for the analytics focused Dash components implementations as python package callded adasher
-  img: https://raw.githubusercontent.com/Bhanuchander210/adasher/main/data/auto_analytics.png
+  img: https://raw.githubusercontent.com/bhachauk/adasher/main/data/auto_analytics.png
 
 
 - name: Earthquake Analytics
-  link: https://github.com/Bhanuchander210/earthquake_analytics
+  link: https://github.com/bhachauk/earthquake_analytics
   desc: Basic insights and statistics on last 60 days Earthquake events with Area, Submarine optical cables.
-  img: https://raw.githubusercontent.com/Bhanuchander210/earthquake_analytics/master/eq_analytics.gif
+  img: https://raw.githubusercontent.com/bhachauk/earthquake_analytics/master/eq_analytics.gif

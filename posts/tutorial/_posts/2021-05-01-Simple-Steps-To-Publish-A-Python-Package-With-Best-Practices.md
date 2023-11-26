@@ -82,7 +82,7 @@ In this step, The usages of **GitHub** and **Travis CI** in publishing python pa
 - The **Travis CI** is used to verify the **build passing status** and **test results** of the latest commit.
 - GitHub workflows facility is used to publish the package to PyPI.
 
-I have added these both facilities in my github repo [patch_antenna](https://github.com/Bhanuchander210/patch_antenna). 
+I have added these both facilities in my github repo [patch_antenna](https://github.com/bhachauk/patch_antenna). 
 Let us take this repo as an example for the further discussion.
 
 ###### Travis CI

@@ -153,7 +153,7 @@ It will render you list of list, you can convert it into the R <mark>data_frame<
  
  [![Demo](/master_navs/myapps/images/networkviewer.gif){: style="width: 75%; border: 2px solid #111;"}](https://bhanuchander.shinyapps.io/networkviewer)
  
- Find the R Source code in my [GitHub](https://github.com/Bhanuchander210/networkviewer_shiny).
+ Find the R Source code in my [GitHub](https://github.com/bhachauk/networkviewer_shiny).
  
 ## References
 ---

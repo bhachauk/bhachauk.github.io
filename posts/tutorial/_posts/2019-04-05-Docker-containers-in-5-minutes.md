@@ -22,7 +22,7 @@ This post explains about the steps involved in containerizing an application usi
 Also tried to disclose an overview on other areas related to this topic.
 
 <p class="txt-center">
-<img src="https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/data/containerizing.jpg" style="width: 70%;"/>
+<img src="https://raw.githubusercontent.com/bhachauk/docker-tutorial/master/data/containerizing.jpg" style="width: 70%;"/>
 </p>
 
 
@@ -249,7 +249,7 @@ and <mark>zero down time deployment</mark> (almost).
 
 ### Some Useful
 
-Also I have created a [single page guide](https://raw.githubusercontent.com/Bhanuchander210/docker-tutorial/master/docker.pdf) which helps you to quickly act with docker. It consists simple **4 steps** guide you
+Also I have created a [single page guide](https://raw.githubusercontent.com/bhachauk/docker-tutorial/master/docker.pdf) which helps you to quickly act with docker. It consists simple **4 steps** guide you
 to quickly done the dockerization.
 
 Here i have shared the slides of docker - overview which explains the concepts behind this technology. Have a look at this to understand quickly and move on ... :)
@@ -263,7 +263,7 @@ Here i have shared the slides of docker - overview which explains the concepts b
 ### References
 
 - [Docker official documentation](https://docs.docker.com/)
-- [Docker tutorial](https://github.com/bhanuchander210/docker-tutorial)
+- [Docker tutorial](https://github.com/bhachauk/docker-tutorial)
 - [Docker Cheat Sheet by wsargent](https://github.com/wsargent/docker-cheat-sheet)
-- [Docker-Containers-Most-Asked-Questions-and-Answers](https://bhanuchander210.github.io/Docker-Containers-Most-Asked-Questions-and-Answers/)
+- [Docker-Containers-Most-Asked-Questions-and-Answers](https://bhachauk.github.io/Docker-Containers-Most-Asked-Questions-and-Answers/)
 - [kubernetes](https://kubernetes.io/)

@@ -4,12 +4,12 @@ github: patch-antenna-util
 
 
 **Update 1 : 23/02/2020**
-Source code of python moved as package [patch-antenna-util](https://github.com/Bhanuchander210/patch-antenna-util/) from normal python file and the post re-organized.
+Source code of python moved as package [patch-antenna-util](https://github.com/bhachauk/patch-antenna-util/) from normal python file and the post re-organized.
 {: .refbox}
 
 
 **Update 2 : 25/02/2020**
-Directivity related equations and codes updated in post and also in package [patch-antenna-util](https://github.com/Bhanuchander210/patch-antenna-util/) from normal python file and the post re-organized.
+Directivity related equations and codes updated in post and also in package [patch-antenna-util](https://github.com/bhachauk/patch-antenna-util/) from normal python file and the post re-organized.
 {: .refbox}
 
 
@@ -69,7 +69,7 @@ Lets us calculate the patch antenna parameters to resonate at **2.4 GHz** with t
 having dielectric constant **4.4** and height **1.6 mm**.
 
 
-Define your values in appropriate unit as shown below example code : [simple_design.py](https://github.com/Bhanuchander210/patch_antenna/blob/master/examples/simple_design.py)
+Define your values in appropriate unit as shown below example code : [simple_design.py](https://github.com/bhachauk/patch_antenna/blob/master/examples/simple_design.py)
 
 <br>
 
@@ -163,23 +163,23 @@ proceed the following.
 ---
 
 Other parameters such as **directivity**, **EHPlane** and **Surface plot** are organized in the another 
-repository [Patch antenna util](https://github.com/Bhanuchander210/patch-antenna-util). Follow below steps if the above
+repository [Patch antenna util](https://github.com/bhachauk/patch-antenna-util). Follow below steps if the above
 discussed details required otherwise skip this.
 
 
 ##### Initialize source code
 
-Clone the repository [Patch antenna util](https://github.com/Bhanuchander210/patch-antenna-util) and update your python path by running the command,
+Clone the repository [Patch antenna util](https://github.com/bhachauk/patch-antenna-util) and update your python path by running the command,
 
 
-git clone https://github.com/Bhanuchander210/patch-antenna-util.git
+git clone https://github.com/bhachauk/patch-antenna-util.git
 cd patch-antenna-util
 export PYTHONPATH=$PYTHONPATH:/path/to/patch_util
 {: .output}
 
 ##### Python script
 
-Then modify [design_patch.py](https://github.com/Bhanuchander210/patch-antenna/blob/master/design_patch.py) or write your own
+Then modify [design_patch.py](https://github.com/bhachauk/patch-antenna/blob/master/design_patch.py) or write your own
 python code as shown below. 
 
 Import the **patch_util** package and initialize the your parameters to its variables such as frequency, dielectric constant and thickness of the cavity.
@@ -209,8 +209,8 @@ of all direction.
 According to the reference **Antenna Theory: Analysis and Design by Constantine A. Balanis : Chapter 14.2.3**,
 There are two kind of equations (*14-53a*, *14-55a*) which is used to calculate the value <mark>I</mark> for different cases <mark>single slot</mark> and <mark>two slot</mark>. 
 
-![Single slot](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/patch_i1.png)
-![Two slot](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/patch_i2.png)
+![Single slot](https://raw.githubusercontent.com/bhachauk/patch-antenna/master/resource/patch_i1.png)
+![Two slot](https://raw.githubusercontent.com/bhachauk/patch-antenna/master/resource/patch_i2.png)
 
 <br>
 So that we can get two different directivity values as <mark>d1</mark> and <mark>d2</mark> calculated from <mark>i1</mark>, <mark>i2</mark> respectively.
@@ -270,7 +270,7 @@ surface_plot(fields)
 
 Also i have migrated these thing into <mark>Javascript</mark> to make a live demo to the viewer and also the design can be downloaded as gerber file <mark>.gbr</mark> for fabrication. 
 
-[![demo](https://raw.githubusercontent.com/Bhanuchander210/patch-antenna/master/resource/anim.gif)](https://bhanuchander210.github.io/patch-antenna-util/)
+[![demo](https://raw.githubusercontent.com/bhachauk/patch-antenna/master/resource/anim.gif)](https://bhachauk.github.io/patch-antenna-util/)
 
 This app still in development and I am always updating it due to the nature of the post :P
 
@@ -282,5 +282,5 @@ Thanks to the sources,
     - [Antenna Theory](http://www.antenna-theory.com/)
     - [Antenna patch Post-1 ](https://medium.com/@johngrant/antenna-arrays-and-python-square-patch-element-6bd3445f39d5)
     - [Antenna patch Post-2](https://medium.com/python-pandemonium/antenna-arrays-and-python-calculating-directivity-84a2cfea0739)
-    - [Patch-antenna GitHub Repository](https://github.com/Bhanuchander210/patch-antenna.git)
+    - [Patch-antenna GitHub Repository](https://github.com/bhachauk/patch-antenna.git)
 {: .refbox}

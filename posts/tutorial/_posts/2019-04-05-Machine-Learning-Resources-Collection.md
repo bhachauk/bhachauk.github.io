@@ -47,7 +47,7 @@ github: Learn_MachineLearning
 
 ### GitHub
 
-- [Learn_MachineLearning by Me](https://github.com/Bhanuchander210/Learn_MachineLearning)
+- [Learn_MachineLearning by Me](https://github.com/bhachauk/Learn_MachineLearning)
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 - [Machine Learning tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
 

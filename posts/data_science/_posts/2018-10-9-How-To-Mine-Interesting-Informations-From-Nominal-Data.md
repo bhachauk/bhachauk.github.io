@@ -873,7 +873,7 @@ Use this <mark>Python script</mark> to evaluate the algorithms <mark>Apriori</ma
 [<button class="goToBtn">
 <i class="fa fa-code" aria-hidden="true"></i>
 Go to Code
-</button>](https://github.com/Bhanuchander210/Learn_MachineLearning/blob/master/04.Data_Mining/Association_rule_mining/evaluate_algorithms.py){: .btn .link}
+</button>](https://github.com/bhachauk/Learn_MachineLearning/blob/master/04.Data_Mining/Association_rule_mining/evaluate_algorithms.py){: .btn .link}
 
 The evaluation output would be like,
 

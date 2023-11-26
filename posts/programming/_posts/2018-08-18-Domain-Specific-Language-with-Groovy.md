@@ -35,7 +35,7 @@ If you are new to <mark>Groovy</mark>, First go through basics such as,
 
 - [Difference between Java and Groovy](http://groovy-lang.org/differences.html) : Official documentation
 - [Integration](http://groovy-lang.org/integrating.html) 
-- Find my Repo [Learn Groovy](https://github.com/Bhanuchander210/Learn_Groovy.git) for Groovy snippets below,
+- Find my Repo [Learn Groovy](https://github.com/bhachauk/Learn_Groovy.git) for Groovy snippets below,
  
 ## Simple Implementation in Java
 ---
@@ -170,7 +170,7 @@ Other facilities like,
 - JDBC for Dabatabases.
 
 We can create a language layer with our own <mark>keywords</mark> over default methods from the libraries. So 
-I have created simple template [DSL build](https://github.com/Bhanuchander210/dsl.git) for these general activities and 
+I have created simple template [DSL build](https://github.com/bhachauk/dsl.git) for these general activities and 
 hope that it will let you understand the DSL Development in <mark>high level</mark>. 
 
 ## Sample DSL Codes

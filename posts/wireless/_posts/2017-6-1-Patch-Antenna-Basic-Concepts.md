@@ -120,11 +120,11 @@ Designing a patch antenna is mainly depends on,
 
 A simple online tool to design a patch antenna has been developed in <mark>R Shiny</mark> environment and
 available in this <a class="link"> Online link</a> and the source code is shared in **GitHub** as 
-<a class="link" href="https://github.com/Bhanuchander210/patchdesign_shiny">patchdesign_shiny</a>.
+<a class="link" href="https://github.com/bhachauk/patchdesign_shiny">patchdesign_shiny</a>.
 
 <kbd class="imgtitle">Patch Antenna Design - R shiny</kbd>
 
-[![img](https://raw.githubusercontent.com/Bhanuchander210/patchdesign_shiny/master/www/patch-design.gif)](https://bhanuchander.shinyapps.io/patch/)
+[![img](https://raw.githubusercontent.com/bhachauk/patchdesign_shiny/master/www/patch-design.gif)](https://bhanuchander.shinyapps.io/patch/)
 {: .center .imgbrd} 
 
 ### Measurement
