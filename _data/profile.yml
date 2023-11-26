@@ -1,31 +1,45 @@
 industry:
-- company: NMSWorks Software Pvt Ltd
-  location: IITM Research Park, Chennai
-  logo: https://www.nmsworks.co.in/image/logo/nms2_logob.png
-  designation: Senior Software Engineer
-  link: https://nmsworks.co.in
-  period: 2017 Jul - Present
-  teams: AI Platform - Software Development Team, Optical Tx-Solution Team
-  domain: Deep Learning, Machine Learning, Network Data Mining, Domain Specific Language Development, Full-Stack-Development
-  languages:
-  - Java
-  - Groovy
-  - Python
-  - JS
-  tools:
-  - Docker
+  - company: HCL Tech
+    location: Sholinganallur SEZ, Chennai
+    logo: https://logos-world.net/wp-content/uploads/2022/07/HCL-Logo.png
+    designation: Technical Lead
+    link: https://hcl.com
+    period: 2023 May - Present
+    teams: ClearPass Admin
+    domain: Network Security, Network Access Control, Full-Stack-Development
+    languages:
+      - Java
+      - Python
+      - JS
+    tools:
+      - Docker
+  - company: NMSWorks Software Pvt Ltd
+    location: IITM Research Park, Chennai
+    logo: https://www.nmsworks.co.in/image/logo/nms2_logob.png
+    designation: Senior Software Engineer
+    link: https://nmsworks.co.in
+    period: 2017 Jul - 2023 May
+    teams: AI Platform - Software Development Team, Optical Tx-Solution Team
+    domain: Deep Learning, Machine Learning, Network Data Mining, Domain Specific Language Development, Full-Stack-Development
+    languages:
+      - Java
+      - Groovy
+      - Python
+      - JS
+    tools:
+      - Docker
 
-- company: Visteon Technical and Service Center
-  location: Olympia Tech Park, Chennai
-  logo: https://www.visteon.com/wp-content/themes/visteon/images/logo.png
-  designation: Graduate Technical Intern
-  link: https://www.visteon.com
-  period: 2016 Dec - 2017 May
-  teams: Instrument Cluster, Infotainment
-  domain: Bluetooth 5LE Integration, Vehicle Navigation
-  languages:
-  - Python
-  - C
-  - CPP
-  tools:
-  - Vector Cast
+  - company: Visteon Technical and Service Center
+    location: Olympia Tech Park, Chennai
+    logo: https://www.visteon.com/wp-content/themes/visteon/images/logo.png
+    designation: Graduate Technical Intern
+    link: https://www.visteon.com
+    period: 2016 Dec - 2017 May
+    teams: Instrument Cluster, Infotainment
+    domain: Bluetooth 5LE Integration, Vehicle Navigation
+    languages:
+      - Python
+      - C
+      - CPP
+    tools:
+      - Vector Cast

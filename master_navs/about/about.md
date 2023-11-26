@@ -11,10 +11,10 @@ title: About me
 **Data Science | Full Stack | AWS Certified | TMForum Certified**
 {: .txt-center}
 <div class="txt-center">
-    <a href="https://twitter.com/Bhanuchander_U?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @Bhanuchander_U</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- <a href="https://twitter.com/Bhanuchander_U?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @Bhanuchander_U</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
     <a class="github-button" href="https://github.com/bhachauk" data-size="large" data-show-count="true" aria-label="Follow @bhachauk on GitHub">Follow @bhachauk</a>
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <div class="g-ytsubscribe" data-channelid="UC2JbRYaC-USnGgzEi2uiaqQ" data-layout="default" data-theme="dark" data-count="default"></div>
+    <!--<script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UC2JbRYaC-USnGgzEi2uiaqQ" data-layout="default" data-theme="dark" data-count="default"></div>-->
     <!--[![Downloads](https://i1.wp.com/stackoverflow.com/users/flair/8331235.png)](https://stackoverflow.com/users/8331235/bhanuchander-udhayakumar)-->
 </div>
 <div class="wrapper-svg">
@@ -35,24 +35,14 @@ title: About me
 <button onclick="toggle(event,'moocs')" class="cmnBtn">Moocs</button>
 <button onclick="toggle(event,'personal')" class="cmnBtn">Personal</button>
 </div>
-
-
-<br><br>
-
-
-Hi there, I am currently working as a **Senior Software Engineer** in chennai. I love to develop full stack applications using <mark>Python</mark>,
-<mark>Java</mark>, <mark>Groovy</mark>, <mark>R</mark> and <mark>JavaScript</mark>. I am working on **Artificial Intelligence** based projects mostly around **Sequence models** and **Computer Vision** for both
-Cloud environment and EDGE device.
-Also familiar with **docker**, **kubernetes** for developing cloud natured full stack application (**GCP**, **AWS** and **Azure**).
-I like to use text editor <mark>sublime</mark>, also the **IDE**s <mark>PyCharm</mark> and <mark>IntelliJ</mark>.
 <br>
 <br>
-During my academics, worked as an graduate intern for the **Automotive Embedded Wireless** based projects and designed few **Patch Antennas** and **RF filters** by
-familiarized with the advanced tools such as [ADS](https://www.keysight.com/in/en/products/software/pathwave-design-software/pathwave-advanced-design-system.html) and [CST](https://www.3ds.com/products-services/simulia/products/cst-studio-suite/).
-<br>
-<br> 
-In my free time, I do blogging and developing **github pages** from my random ideas and also like to play MOBA games such as [Dota 2](https://www.dota2.com/). Also as a master degree graduate in **Wireless technology**,
-I love to contribute in the open source software development for **Machine Learning**, **Antennas / RF Design**, and **Visualization* areas.
+Completed **Master's degree** in **Wireless Technologies** and having experience in **Telecommunication / Networking** domain
+side Software Development say **Network Security (NAC)**, **Network Management (NMS)**, and **Data Science**. 
+Love to develop Fullstack cloud native applications using <mark>Python</mark>,
+<mark>Java</mark>, <mark>Groovy</mark> and <mark>JavaScript</mark>. In my free time, 
+I do blogging and developing **GitHub pages** from my random ideas and like to play MOBA games such as 
+[Dota 2](https://www.dota2.com/). 
 {: .show .summary style="margin: 0px 50px 100px 50px; font-size: 40;"}
 
 
