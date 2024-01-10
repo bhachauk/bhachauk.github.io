@@ -12,6 +12,10 @@ github: Learn_MachineLearning
 - [Books](#book)
 {: .contentBorder .txt-pad}
 
+**Update 1 : 11/01/2024**
+Posts section updated.
+{: .refbox}
+
 ### Official Docs
 
 - [Google AI Education](https://ai.google/education/)
@@ -44,6 +48,7 @@ github: Learn_MachineLearning
 - [Common algorithms in ML by Analytics-vidhya](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
 - [Your First Machine Learning Project in Python Step-By-Step](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Data Mining a demo with titanic data](https://www.kaggle.com/bhanuchanderu/data-mining-a-demo-with-titanic-data)
+- [Glossary of AI Terms by AIPRM](http://www.aiprm.com/ai-glossary/)
 
 ### GitHub
 
