@@ -21,7 +21,10 @@
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
 		gtag('config', 'G-E6EFY8JXNK');
+		gtag('event', 'page_view', {
+			'page': '{{ site.baseurl }}{{ page.url }}',
+			'title': '{{ page.title | replace: "'", "\\'" }}'
+		 });
 	</script>
 {% endif %}
