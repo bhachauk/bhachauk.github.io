@@ -1,6 +1,6 @@
-- name: PgManager
+- name: PgManager - Postgres Manager - Cluster configuration
   link: https://bhachauk.github.io/pgmanager
-  desc: Postgres Manager UI Framework using Flutter with Bloc architecture
+  desc: Postgres Manager UI Framework for cluster configuration management using Flutter with Bloc architecture
   img: https://raw.githubusercontent.com/bhachauk/pgmanager/main/pgmanager_demo_live.gif
 
 - name: Simple Network Viewer - R Shiny
