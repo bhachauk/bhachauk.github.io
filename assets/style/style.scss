@@ -617,3 +617,42 @@ button:focus {outline:0;}
  .bold {
     font-weight: bold;
  }
+
+.column1 {
+  float: left;
+  width: 30%;
+}
+
+.column2 {
+  float: left;
+  width: 70%;
+}
+
+.xptable {
+    tr, td {
+    padding:0px 50px 15px 15px;
+   }
+   td {
+     text-align: left;
+     vertical-align: middle;
+   }
+}
+
+.profileCard1 {
+  height: auto;
+  border-radius: 1px;
+  box-shadow: 0px 1px 0px 0px #aaa;
+  border: 1px solid #ccc;
+}
+.profileCard1 img {
+  width: 80px;
+}
+@media screen and (max-width: 640px) {
+  .profileCard1 img {
+    width: 50px;
+  }
+}
+.profileCard1 table {
+  font-size: 10px;
+  font-family: "Merriweather Sans", sans-serif;
+}

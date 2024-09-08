@@ -15,7 +15,7 @@
 
 - name: Design and Simulator of Patch Antenna
   link: https://bhachauk.github.io/patch-antenna-util
-  desc: Patch antenna desiging and simulating with Lovely 3D views and custom variables.
+  desc: Patch antenna design and simulating with Lovely 3D views and custom variables.
   img: https://raw.githubusercontent.com/bhachauk/patch-antenna-util/master/resource/anim.gif
 
 - name: Electro-Magnetic-Spectrum using ReactJS
