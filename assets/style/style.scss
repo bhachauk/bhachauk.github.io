@@ -618,14 +618,21 @@ button:focus {outline:0;}
     font-weight: bold;
  }
 
-.column1 {
-  float: left;
-  width: 30%;
+@media (min-width: 1024px) {
+    .column1 {
+      float: left;
+      width: 30%;
+    }
+
+    .column2 {
+      float: left;
+      width: 70%;
+    }
 }
 
 .column2 {
-  float: left;
-  width: 70%;
+    margin-bottom: 5%;
+    height: auto;
 }
 
 .xptable {

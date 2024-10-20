@@ -10,7 +10,7 @@ title: About me
 <img src="/images/bhanuchander_udhayakumar.jpeg">
 <div class="txt-center">
     <h2>Bhanuchander Udhayakumar</h2>
-    <b>Software Development | AWS | Aruba | TMForum Certified</b><br><br>
+    <b>Software Developer | AWS | Aruba | TMForum Certified</b><br><br>
     <!-- <a href="https://twitter.com/Bhanuchander_U?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @Bhanuchander_U</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
     <a class="github-button" href="https://github.com/bhachauk" data-size="large" data-show-count="true" aria-label="Follow @bhachauk on GitHub">Follow @bhachauk</a>
     <!--<script src="https://apis.google.com/js/platform.js"></script>
@@ -35,37 +35,14 @@ title: About me
 <div class="show summary" style="margin: 0px 50px 100px 50px; font-size: 40;">
 <ul>
 <li>Completed my <b>Master's Degree</b> in <b>Wireless Technologies</b> at <b>Anna University - MIT Campus.</b></li>
-<li>Having <b><span id="experience"></span> of experience</b> in software development.</li>
+<li>Having <b><span id="experience"></span> of experience</b> in the software development industry.</li>
 <li>Domains familiar with: Network Access Control (NAC), Network Management System (NMS),  Microservices, Machine Learning and Deep Learning.</li>
 </ul>
 <br>
-<div style="display: flex; justify-content: space-between;">
-<img width="60" height="60" src="https://img.icons8.com/fluency/60/java-coffee-cup-logo.png" alt="java-coffee-cup-logo" title="Java"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/python.png" alt="python" title="Python"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/spring-logo.png" title="Spring boot"/>
-<img width="60" height="60" src="https://img.icons8.com/officel/60/react.png" title="React"/>
-<img width="60" height="60" src="https://img.icons8.com/color/144/flutter.png" title="Flutter"/>
-</div>
-<br>
 <div style="display: flex;">
-<img width="60" height="60" src="https://img.icons8.com/nolan/60/apache-kafka.png" title="Kafka"/>
-<img width="60" height="60" src="https://img.icons8.com/color/144/mysql-logo.png" title="MySQL"/>
-<img width="60" height="60" src="https://img.icons8.com/color/144/oracle-logo.png" title="Oracle"/>
-<img width="60" height="60" src="https://img.icons8.com/color/144/postgreesql.png" title="Postgres"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/splunk.png" title="Splunk"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/amazon-web-services.png" title="AWS"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/google-cloud.png" title="GCP"/>
+<a href="https://www.tmforum.org/training-certification/certification-listing/"><img src="https://www.tmforum.org/wp-content/uploads/2020/06/AIDM-badge.png" width="75"/></a>
+<a href="https://bhachauk.github.io/images/aws_ccp.png"><img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="75"/></a>
 </div>
-<br>
-<div style="display: flex;">
-<img width="60" height="60" src="https://img.icons8.com/color/60/docker.png" title="Docker"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/kubernetes.png" title="K8s"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/tensorflow.png" title="Tensorflow"/>
-<img width="60" height="60" src="https://img.icons8.com/material/60/keras.png" title="Keras"/>
-<img width="60" height="60" src="https://img.icons8.com/material-sharp/60/django.png" title="Django"/>
-<img width="60" height="60" src="https://img.icons8.com/color/60/jira.png" title="Jira"/>
-</div>
-<br>
 </div>
 
 <script>
@@ -78,40 +55,31 @@ title: About me
         months += 12;
     }
     if (months > 0) {
-        months = "+"
+        months = `and ${months} months`;
+    } else {
+        months = "+";
     }
-    document.getElementById('experience').textContent = `${years}+ years`;
+    document.getElementById('experience').textContent = `${years} years ${months}`;
 </script>
 
 
 {% for job in site.data.profile.industry %}
-<div class="profileCard1 profile show " style="display:none; margin: 5%;">
-<table class="xptable">
-<tr>
-<td style="width: 20%; text-align: center;border-right: 1px dotted gray;"><a href="{{job.link}}"><img src="{{job.logo}}"/></a><br><b>{{job.location}}</b></td>
-<td style="width: 50%;"><h6>{{job.designation}}</h6><br><p>{{job.teams}}</p></td>
-<td style="width: 30%;"><p>{{job.period}}</p></td>
-</tr>
-</table>
-<div class="content" style="display: none;">
-<b>{{job.location}}</b>
-<br>
-<table>
-<tr><td style="font-weight:bold">Domain :</td><td style="padding-left: 15px;">{{job.domain}}</td></tr>
-</table>
-<h6>Languages</h6>
-{% for lang in job.languages %}
-{% for master in site.data.skills.languages %}
-{% if master.name == lang %}
-<div class="inline-block" style="margin: 15px;">
-<table>
-<tr><td align="center"><i class="{{master.code}} fa-3x"></i></td></tr>
-<tr><td align="center">{{lang}}</td></tr>
-</table></div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+<div class="profileCard profile show " style="display:none; margin: 5%;">
+
+
+<table style="display: flex;">
+<tr><td>
+<div style="margin-right: 30px; min-width: 30%; min-height: 70%;text-align: center;"><a href="{{job.link}}"><img src="{{job.logo}}"/></a></div>
+</td>
+<td>
+<div>
+<h4>{{job.designation}}</h4>
+<b>{{job.company}}, {{job.location}}</b>
+<p >{{job.teams}}</p>
+<p style="color: #699">{{job.period}}</p>
 </div>
+</td></tr>
+</table>
 </div>
 {% endfor %}
 
