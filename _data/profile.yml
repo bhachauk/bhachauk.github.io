@@ -1,10 +1,23 @@
 industry:
-  - company: HCL Tech
+  - company: Comcast India Engineering Center
+    location:  Chennai One SEZ, Thoraipakkam
+    logo: https://www.logo.wine/a/logo/Comcast/Comcast-Logo.wine.svg
+    designation: Development Engineer
+    link: https://corporate.comcast.com/
+    period: 2024 Dec - Present
+    teams: Comcast Advertising, Freewheel
+    domain: MRM
+    languages:
+      - Go, Java, Python
+      - ReactJS, Node, Yarn
+    tools:
+      - Docker, K8s, AWS
+  - company: HCLTech
     location: Sholinganallur SEZ, Chennai
     logo: https://logos-world.net/wp-content/uploads/2022/07/HCL-Logo.png
     designation: Technical Lead
     link: https://hcl.com
-    period: 2023 May - Present
+    period: 2023 May - 2024 Nov (1 Year 6 Months)
     teams: HPE ClearPass Policy Manager, GreenLake
     domain: Network Security, Network Access Control, Full-Stack-Development
     languages:
@@ -18,7 +31,7 @@ industry:
     logo: https://www.nmsworks.co.in/image/logo/nms2_logob.png
     designation: Senior Software Engineer
     link: https://nmsworks.co.in
-    period: 2017 Jul - 2023 May
+    period: 2017 Jul - 2023 May (5 Years 9 Months)
     teams: AI Platform - Problem Management, OTNMS - RCA and Solution
     domain: Deep Learning, Machine Learning, Network Data Mining, Domain Specific Language Development, Full-Stack-Development
     languages:
@@ -34,7 +47,7 @@ industry:
     logo: https://www.visteon.com/wp-content/themes/visteon/images/logo.png
     designation: Graduate Technical Intern
     link: https://www.visteon.com
-    period: 2016 Dec - 2017 May
+    period: 2016 Dec - 2017 May (6 Months)
     teams: Instrument Cluster, Infotainment
     domain: Bluetooth 5LE Integration, Vehicle Navigation
     languages:
